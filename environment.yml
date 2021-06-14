@@ -1,0 +1,8 @@
+name: epw-school
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- qe=6.7.0
+- ase=3.21.1
+- gnuplot=5.4.1
