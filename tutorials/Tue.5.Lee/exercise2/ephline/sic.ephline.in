@@ -1,0 +1,18 @@
+---
+&inputph
+  prefix   = 'sic'
+  fildvscf = 'dvscf'
+  ldisp    = .true.
+  fildyn   = 'sic.dyn'
+  tr2_ph   =  1.0d-12
+  qplot    = .true.
+  q_in_band_form = .true.
+  electron_phonon = 'epw'
+!  kx = 1.2500000
+!  ky = 0.8750000
+!  kz = 1.2500000
+/
+3
+  1.0000 0.0000 0.0000 20 # X
+  0.0000 0.0000 0.0000 20 # Gamma
+ -0.5000 0.5000 0.5000 1  # L

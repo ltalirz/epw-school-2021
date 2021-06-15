@@ -1,0 +1,4 @@
+--
+&input
+  zasr='simple', fildyn='sic.dyn', flfrc='sic333.fc'
+/

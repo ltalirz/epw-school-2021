@@ -1,0 +1,8 @@
+begin projections
+ Si:sp3
+end projections
+num_wann =   4
+iprint =   2
+num_iter =     300
+write_bvec = .true.
+ write_hr = .true.

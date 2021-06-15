@@ -1,0 +1,31 @@
+--
+&inputepw
+  prefix      = 'sic'
+  amass(1)    = 28.0855
+  amass(2)    = 12.0107
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  elph        = .true.
+  epwwrite    = .false.
+  epwread     = .true.
+  lpolar      = .true.
+
+  wannierize  = .false.
+  nbndsub     =  4
+  num_iter    = 300
+  proj(1)     = 'Si:sp3'   
+
+  band_plot   = .true.
+
+  filqf       = 'path2.dat'
+  filkf       = 'path2.dat'
+
+  nk1         = 6
+  nk2         = 6
+  nk3         = 6
+  nq1         = 3
+  nq2         = 3
+  nq3         = 3
+  kmaps = .true.
+ /
