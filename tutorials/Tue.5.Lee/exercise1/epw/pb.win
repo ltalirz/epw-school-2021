@@ -1,0 +1,11 @@
+begin projections
+ Pb:sp3
+end projections
+ exclude_bands = 1-5                                                                                                                                                                                                                                             
+num_wann =   4
+iprint =   2
+dis_win_max =    21.000000000000
+dis_froz_max =    13.500000000000
+num_iter =     300
+write_bvec = .true.
+ write_hr = .true.

@@ -1,0 +1,30 @@
+
+     Program MATDYN v.6.7MaX starts on 15Jun2021 at 19:31:55 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       1 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+ mass for atomic type   1 not given; uses mass from file pb333.fc                                                                                                                                                                                                                                                        
+     Message from routine matdyn:
+     Z* not found in file pb333.fc, TO-LO splitting at q=0 will be absent!
+     Message from routine matdyn:
+     Z* not found in file pb333.fc, TO-LO splitting at q=0 will be absent!
+
+     MATDYN       :      0.01s CPU      0.01s WALL
+
+
+   This run was terminated on:  19:31:55  15Jun2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

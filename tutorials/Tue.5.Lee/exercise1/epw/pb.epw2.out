@@ -1,0 +1,3099 @@
+                                                                                      
+                                       ``:oss/                                        
+                           `.+s+.     .+ys--yh+     `./ss+.                           
+                          -sh//yy+`   +yy   +yy    -+h+-oyy                           
+                          -yh- .oyy/.-sh.   .syo-.:sy-  /yh                           
+                 `.-.`    `yh+   -oyyyo.     `/syys:    oys      `.`                  
+               `/+ssys+-` `sh+      `                   oys`   .:osyo`                
+               -yh- ./syyooyo`                          .sys+/oyo--yh/                
+               `yy+    .-:-.                             `-/+/:`  -sh-                
+                /yh.                                              oys                 
+          ``..---hho---------`   .---------..`      `.-----.`    -hd+---.             
+       `./osmNMMMMMMMMMMMMMMMs. +NNMMMMMMMMNNmh+.   yNMMMMMNm-  oNMMMMMNmo++:`        
+       +sy--/sdMMMhyyyyyyyNMMh- .oyNMMmyyyyyhNMMm+` -yMMMdyyo:` .oyyNMMNhs+syy`       
+       -yy/   /MMM+.`-+/``mMMy-   `mMMh:`````.dMMN:` `MMMy-`-dhhy```mMMy:``+hs        
+        -yy+` /MMMo:-mMM+`-oo/.    mMMh:     `dMMN/`  dMMm:`dMMMMy..MMMo-.+yo`        
+         .sys`/MMMMNNMMMs-         mMMmyooooymMMNo:   oMMM/sMMMMMM++MMN//oh:          
+          `sh+/MMMhyyMMMs- `-`     mMMMMMMMMMNmy+-`   -MMMhMMMsmMMmdMMd/yy+           
+    `-/+++oyy-/MMM+.`/hh/.`mNm:`   mMMd+/////:-.`      NMMMMMd/:NMMMMMy:/yyo/:.`      
+   +os+//:-..-oMMMo:--:::-/MMMo. .-mMMd+---`           hMMMMN+. oMMMMMo. `-+osyso:`   
+   syo     `mNMMMMMNNNNNNNNMMMo.oNNMMMMMNNNN:`         +MMMMs:`  dMMMN/`     ``:syo   
+   /yh`     :syyyyyyyyyyyyyyyy+.`+syyyyyyyyo:`         .oyys:`   .oyys:`        +yh   
+   -yh-        ````````````````    `````````              ``        ``          oys   
+   -+h/------------------------::::::::://////++++++++++++++++++++++///////::::/yd:   
+   shdddddddddddddddddddddddddddddhhhhhhhhyyyyyssssssssssssssssyyyyyyyhhhhhhhddddh`   
+                                                                                      
+  S. Ponce, E. R. Margine, C. Verdi, and F. Giustino,                                 
+                                                Comput. Phys. Commun. 209, 116 (2016) 
+                                                                                      
+
+     Program EPW v.5.3.1 starts on 15Jun2021 at 21: 7:15 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       4 processor cores
+     Number of MPI processes:                 4
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     K-points division:     npool     =       4
+     Reading input from pb.epw2.in
+
+     Reading supplied temperature list.
+                      
+     ------------------------------------------------------------------------ 
+                   RESTART - RESTART - RESTART - RESTART                         
+     Restart is done without reading PWSCF save file.                  
+     Be aware that some consistency checks are therefore not done.                  
+     ------------------------------------------------------------------------ 
+                      
+
+     --                                                                         
+
+     bravais-lattice index     =            0
+     lattice parameter (a_0)   =       0.0000  a.u.
+     unit-cell volume          =       0.0000 (a.u.)^3
+     number of atoms/cell      =            0
+     number of atomic types    =            0
+     kinetic-energy cut-off    =       0.0000  Ry
+     charge density cut-off    =       0.0000  Ry
+     Exchange-correlation= not set
+                           (  -1  -1  -1  -1  -1  -1  -1)
+
+
+     celldm(1)=    0.00000  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of a_0)
+               a(1) = (  0.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  0.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  0.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/a_0)
+               b(1) = (  0.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  0.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  0.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+   Cartesian axes
+
+     site n.  atom      mass           positions (a_0 units)
+
+
+     No symmetry!
+
+     G cutoff =    0.0000  (      0 G-vectors)     FFT grid: (  0,  0,  0)
+     number of k points=    0
+                       cart. coord. in units 2pi/a_0
+     EPW          :      0.00s CPU      0.01s WALL
+
+     EPW          :      0.00s CPU      0.01s WALL
+
+
+     -------------------------------------------------------------------
+     Using pb.ukk from disk
+     -------------------------------------------------------------------
+
+     Symmetries of Bravais lattice:  48
+     Symmetries of crystal:          48
+
+     Do not need to read .epb files; read .fmt files
+
+
+     Band disentanglement is used: nbndsub =    4
+     Use zone-centred Wigner-Seitz cells 
+     Number of WS vectors for electrons      279
+     Number of WS vectors for phonons       43
+     Number of WS vectors for electron-phonon       43
+     Maximum number of cores for efficient parallelization      129
+     Results may improve by using use_ws == .TRUE. 
+
+     Reading Hamiltonian, Dynamical matrix and EP vertex in Wann rep from file
+
+
+     Finished reading Wann rep data from file
+
+System file does not exist
+     ===================================================================
+     Memory usage:  VmHWM =         0Mb
+                   VmPeak =         0Mb
+     ===================================================================
+     
+     Using q-mesh file: path2.dat
+     WARNING: q-point weigths do not add up to 1 [loadqmesh_serial]
+     Size of q point mesh for interpolation:        181
+     Using uniform k-mesh:   20  20  20
+     Size of k point mesh for interpolation:      16000
+     Max number of k points per pool:             4000
+
+     Fermi energy coarse grid =  11.801776 eV
+
+     Skipping the first    5 bands:
+
+     The Fermi level will be determined with   4.00000 electrons
+
+     Fermi energy is calculated from the fine k-mesh: Ef =  11.612834 eV
+
+     ===================================================================
+
+              ibndmin =     2  ebndmin =    10.613 eV
+              ibndmax =     4  ebndmax =    12.600 eV
+
+
+     Number of ep-matrix elements per pool :        54000 ~=  421.88 Kb (@ 8 bytes/ DP)
+      
+     A selecq.fmt file was found but re-created because selecqread == .FALSE. 
+     Number selected, total         100         100
+     We only need to compute      181 q-points
+      
+
+     ===================================================================
+     Phonon (Imaginary) Self-Energy in the Migdal Approximation
+     ===================================================================
+
+
+     Fermi Surface thickness =   1.000000 eV
+
+     Golden Rule strictly enforced with T =   0.000006 eV
+     Gaussian Broadening:   0.200000 eV, ngauss=   1
+     DOS =  0.235546 states/spin/eV/Unit Cell at Ef= 11.612834 eV
+
+     ismear =     1 iq =       1 coord.:   0.00000  0.00000  0.00000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   1 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___(   2 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   2 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___(   3 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   3 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___( tot )=       0.000000
+     lambda_tr( tot )=       0.000000
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3850 out of     8000
+
+
+     ismear =     1 iq =       2 coord.:   0.01667  0.00000  0.01667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.497257   gamma___=       0.000147 meV   omega=      0.6314 meV
+     lambda_tr(   1 )=       0.002499   gamma_tr=       0.000001 meV   omega=      0.6314 meV
+     lambda___(   2 )=       0.497257   gamma___=       0.000147 meV   omega=      0.6314 meV
+     lambda_tr(   2 )=       0.002499   gamma_tr=       0.000001 meV   omega=      0.6314 meV
+     lambda___(   3 )=       0.615290   gamma___=       0.000352 meV   omega=      0.8792 meV
+     lambda_tr(   3 )=       0.027564   gamma_tr=       0.000016 meV   omega=      0.8792 meV
+     lambda___( tot )=       1.609803
+     lambda_tr( tot )=       0.032561
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3525 out of     8000
+
+
+     ismear =     1 iq =       3 coord.:   0.03333  0.00000  0.03333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.130304   gamma___=       0.000153 meV   omega=      1.2600 meV
+     lambda_tr(   1 )=      -0.000612   gamma_tr=      -0.000001 meV   omega=      1.2600 meV
+     lambda___(   2 )=       0.130304   gamma___=       0.000153 meV   omega=      1.2600 meV
+     lambda_tr(   2 )=      -0.000612   gamma_tr=      -0.000001 meV   omega=      1.2600 meV
+     lambda___(   3 )=       0.313813   gamma___=       0.000714 meV   omega=      1.7530 meV
+     lambda_tr(   3 )=       0.069243   gamma_tr=       0.000157 meV   omega=      1.7530 meV
+     lambda___( tot )=       0.574420
+     lambda_tr( tot )=       0.068019
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3176 out of     8000
+
+
+     ismear =     1 iq =       4 coord.:   0.05000  0.00000  0.05000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.051219   gamma___=       0.000134 meV   omega=      1.8830 meV
+     lambda_tr(   1 )=       0.006220   gamma_tr=       0.000016 meV   omega=      1.8830 meV
+     lambda___(   2 )=       0.051219   gamma___=       0.000134 meV   omega=      1.8830 meV
+     lambda_tr(   2 )=       0.006220   gamma_tr=       0.000016 meV   omega=      1.8830 meV
+     lambda___(   3 )=       0.344215   gamma___=       0.001743 meV   omega=      2.6162 meV
+     lambda_tr(   3 )=       0.192439   gamma_tr=       0.000975 meV   omega=      2.6162 meV
+     lambda___( tot )=       0.446654
+     lambda_tr( tot )=       0.204880
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2826 out of     8000
+
+
+     ismear =     1 iq =       5 coord.:   0.06667  0.00000  0.06667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.027594   gamma___=       0.000127 meV   omega=      2.4976 meV
+     lambda_tr(   1 )=       0.006856   gamma_tr=       0.000032 meV   omega=      2.4976 meV
+     lambda___(   2 )=       0.027594   gamma___=       0.000127 meV   omega=      2.4976 meV
+     lambda_tr(   2 )=       0.006856   gamma_tr=       0.000032 meV   omega=      2.4976 meV
+     lambda___(   3 )=       0.077119   gamma___=       0.000685 meV   omega=      3.4634 meV
+     lambda_tr(   3 )=       0.038241   gamma_tr=       0.000339 meV   omega=      3.4634 meV
+     lambda___( tot )=       0.132306
+     lambda_tr( tot )=       0.051953
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2545 out of     8000
+
+
+     ismear =     1 iq =       6 coord.:   0.08333  0.00000  0.08333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.042016   gamma___=       0.000299 meV   omega=      3.1013 meV
+     lambda_tr(   1 )=       0.019319   gamma_tr=       0.000137 meV   omega=      3.1013 meV
+     lambda___(   2 )=       0.042016   gamma___=       0.000299 meV   omega=      3.1013 meV
+     lambda_tr(   2 )=       0.019319   gamma_tr=       0.000137 meV   omega=      3.1013 meV
+     lambda___(   3 )=       0.034808   gamma___=       0.000474 meV   omega=      4.2899 meV
+     lambda_tr(   3 )=       0.017486   gamma_tr=       0.000238 meV   omega=      4.2899 meV
+     lambda___( tot )=       0.118839
+     lambda_tr( tot )=       0.056124
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2268 out of     8000
+
+
+     ismear =     1 iq =       7 coord.:   0.10000  0.00000  0.10000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.035078   gamma___=       0.000354 meV   omega=      3.6916 meV
+     lambda_tr(   1 )=       0.019870   gamma_tr=       0.000200 meV   omega=      3.6916 meV
+     lambda___(   2 )=       0.035078   gamma___=       0.000354 meV   omega=      3.6916 meV
+     lambda_tr(   2 )=       0.019870   gamma_tr=       0.000200 meV   omega=      3.6916 meV
+     lambda___(   3 )=       0.061530   gamma___=       0.001180 meV   omega=      5.0909 meV
+     lambda_tr(   3 )=       0.039865   gamma_tr=       0.000765 meV   omega=      5.0909 meV
+     lambda___( tot )=       0.131687
+     lambda_tr( tot )=       0.079606
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2050 out of     8000
+
+
+     ismear =     1 iq =       8 coord.:   0.11667  0.00000  0.11667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.061213   gamma___=       0.000824 meV   omega=      4.2660 meV
+     lambda_tr(   1 )=       0.024865   gamma_tr=       0.000335 meV   omega=      4.2660 meV
+     lambda___(   2 )=       0.061213   gamma___=       0.000824 meV   omega=      4.2660 meV
+     lambda_tr(   2 )=       0.024865   gamma_tr=       0.000335 meV   omega=      4.2660 meV
+     lambda___(   3 )=       0.047019   gamma___=       0.001196 meV   omega=      5.8620 meV
+     lambda_tr(   3 )=       0.024962   gamma_tr=       0.000635 meV   omega=      5.8620 meV
+     lambda___( tot )=       0.169444
+     lambda_tr( tot )=       0.074691
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2006 out of     8000
+
+
+     ismear =     1 iq =       9 coord.:   0.13333  0.00000  0.13333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.212514   gamma___=       0.003657 meV   omega=      4.8225 meV
+     lambda_tr(   1 )=       0.110447   gamma_tr=       0.001901 meV   omega=      4.8225 meV
+     lambda___(   2 )=       0.212514   gamma___=       0.003657 meV   omega=      4.8225 meV
+     lambda_tr(   2 )=       0.110447   gamma_tr=       0.001901 meV   omega=      4.8225 meV
+     lambda___(   3 )=       0.057775   gamma___=       0.001862 meV   omega=      6.5994 meV
+     lambda_tr(   3 )=       0.038449   gamma_tr=       0.001239 meV   omega=      6.5994 meV
+     lambda___( tot )=       0.482803
+     lambda_tr( tot )=       0.259343
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1946 out of     8000
+
+
+     ismear =     1 iq =      10 coord.:   0.15000  0.00000  0.15000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.367705   gamma___=       0.007814 meV   omega=      5.3589 meV
+     lambda_tr(   1 )=       0.249677   gamma_tr=       0.005306 meV   omega=      5.3589 meV
+     lambda___(   2 )=       0.367705   gamma___=       0.007814 meV   omega=      5.3589 meV
+     lambda_tr(   2 )=       0.249677   gamma_tr=       0.005306 meV   omega=      5.3589 meV
+     lambda___(   3 )=       0.152656   gamma___=       0.006019 meV   omega=      7.2995 meV
+     lambda_tr(   3 )=       0.107099   gamma_tr=       0.004223 meV   omega=      7.2995 meV
+     lambda___( tot )=       0.888066
+     lambda_tr( tot )=       0.606453
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1932 out of     8000
+
+
+     ismear =     1 iq =      11 coord.:   0.16667  0.00000  0.16667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.216535   gamma___=       0.005528 meV   omega=      5.8735 meV
+     lambda_tr(   1 )=       0.135313   gamma_tr=       0.003454 meV   omega=      5.8735 meV
+     lambda___(   2 )=       0.216535   gamma___=       0.005528 meV   omega=      5.8735 meV
+     lambda_tr(   2 )=       0.135313   gamma_tr=       0.003454 meV   omega=      5.8735 meV
+     lambda___(   3 )=       0.106504   gamma___=       0.004993 meV   omega=      7.9594 meV
+     lambda_tr(   3 )=       0.060140   gamma_tr=       0.002819 meV   omega=      7.9594 meV
+     lambda___( tot )=       0.539573
+     lambda_tr( tot )=       0.330767
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1980 out of     8000
+
+
+     ismear =     1 iq =      12 coord.:   0.18333  0.00000  0.18333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.183903   gamma___=       0.005513 meV   omega=      6.3648 meV
+     lambda_tr(   1 )=       0.093849   gamma_tr=       0.002813 meV   omega=      6.3648 meV
+     lambda___(   2 )=       0.183903   gamma___=       0.005513 meV   omega=      6.3648 meV
+     lambda_tr(   2 )=       0.093849   gamma_tr=       0.002813 meV   omega=      6.3648 meV
+     lambda___(   3 )=       0.114008   gamma___=       0.006206 meV   omega=      8.5766 meV
+     lambda_tr(   3 )=       0.044757   gamma_tr=       0.002436 meV   omega=      8.5766 meV
+     lambda___( tot )=       0.481813
+     lambda_tr( tot )=       0.232455
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1972 out of     8000
+
+
+     ismear =     1 iq =      13 coord.:   0.20000  0.00000  0.20000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.235949   gamma___=       0.008148 meV   omega=      6.8314 meV
+     lambda_tr(   1 )=       0.068586   gamma_tr=       0.002369 meV   omega=      6.8314 meV
+     lambda___(   2 )=       0.235949   gamma___=       0.008148 meV   omega=      6.8314 meV
+     lambda_tr(   2 )=       0.068586   gamma_tr=       0.002369 meV   omega=      6.8314 meV
+     lambda___(   3 )=       0.242029   gamma___=       0.014992 meV   omega=      9.1492 meV
+     lambda_tr(   3 )=       0.037828   gamma_tr=       0.002343 meV   omega=      9.1492 meV
+     lambda___( tot )=       0.713927
+     lambda_tr( tot )=       0.175000
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1982 out of     8000
+
+
+     ismear =     1 iq =      14 coord.:   0.21667  0.00000  0.21667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.187814   gamma___=       0.007350 meV   omega=      7.2722 meV
+     lambda_tr(   1 )=       0.125475   gamma_tr=       0.004910 meV   omega=      7.2722 meV
+     lambda___(   2 )=       0.187814   gamma___=       0.007350 meV   omega=      7.2722 meV
+     lambda_tr(   2 )=       0.125475   gamma_tr=       0.004910 meV   omega=      7.2722 meV
+     lambda___(   3 )=       0.164682   gamma___=       0.011409 meV   omega=      9.6759 meV
+     lambda_tr(   3 )=       0.043308   gamma_tr=       0.003000 meV   omega=      9.6759 meV
+     lambda___( tot )=       0.540310
+     lambda_tr( tot )=       0.294257
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1970 out of     8000
+
+
+     ismear =     1 iq =      15 coord.:   0.23333  0.00000  0.23333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.164311   gamma___=       0.007183 meV   omega=      7.6863 meV
+     lambda_tr(   1 )=       0.113706   gamma_tr=       0.004971 meV   omega=      7.6863 meV
+     lambda___(   2 )=       0.164311   gamma___=       0.007183 meV   omega=      7.6863 meV
+     lambda_tr(   2 )=       0.113706   gamma_tr=       0.004971 meV   omega=      7.6863 meV
+     lambda___(   3 )=       0.135594   gamma___=       0.010350 meV   omega=     10.1561 meV
+     lambda_tr(   3 )=       0.051116   gamma_tr=       0.003902 meV   omega=     10.1561 meV
+     lambda___( tot )=       0.464216
+     lambda_tr( tot )=       0.278527
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1966 out of     8000
+
+
+     ismear =     1 iq =      16 coord.:   0.25000  0.00000  0.25000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.074810   gamma___=       0.003608 meV   omega=      8.0733 meV
+     lambda_tr(   1 )=       0.050826   gamma_tr=       0.002451 meV   omega=      8.0733 meV
+     lambda___(   2 )=       0.074810   gamma___=       0.003608 meV   omega=      8.0733 meV
+     lambda_tr(   2 )=       0.050826   gamma_tr=       0.002451 meV   omega=      8.0733 meV
+     lambda___(   3 )=       0.138475   gamma___=       0.011491 meV   omega=     10.5897 meV
+     lambda_tr(   3 )=       0.065013   gamma_tr=       0.005395 meV   omega=     10.5897 meV
+     lambda___( tot )=       0.288096
+     lambda_tr( tot )=       0.166665
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1960 out of     8000
+
+
+     ismear =     1 iq =      17 coord.:   0.26667  0.00000  0.26667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.082140   gamma___=       0.004322 meV   omega=      8.4326 meV
+     lambda_tr(   1 )=       0.051957   gamma_tr=       0.002734 meV   omega=      8.4326 meV
+     lambda___(   2 )=       0.082140   gamma___=       0.004322 meV   omega=      8.4326 meV
+     lambda_tr(   2 )=       0.051957   gamma_tr=       0.002734 meV   omega=      8.4326 meV
+     lambda___(   3 )=       0.101182   gamma___=       0.009022 meV   omega=     10.9773 meV
+     lambda_tr(   3 )=       0.033350   gamma_tr=       0.002974 meV   omega=     10.9773 meV
+     lambda___( tot )=       0.265462
+     lambda_tr( tot )=       0.137263
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1934 out of     8000
+
+
+     ismear =     1 iq =      18 coord.:   0.28333  0.00000  0.28333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.117436   gamma___=       0.006675 meV   omega=      8.7642 meV
+     lambda_tr(   1 )=       0.091753   gamma_tr=       0.005215 meV   omega=      8.7642 meV
+     lambda___(   2 )=       0.117436   gamma___=       0.006675 meV   omega=      8.7642 meV
+     lambda_tr(   2 )=       0.091753   gamma_tr=       0.005215 meV   omega=      8.7642 meV
+     lambda___(   3 )=       0.146012   gamma___=       0.013846 meV   omega=     11.3201 meV
+     lambda_tr(   3 )=       0.037778   gamma_tr=       0.003582 meV   omega=     11.3201 meV
+     lambda___( tot )=       0.380884
+     lambda_tr( tot )=       0.221285
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1939 out of     8000
+
+
+     ismear =     1 iq =      19 coord.:   0.30000  0.00000  0.30000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.094412   gamma___=       0.005745 meV   omega=      9.0680 meV
+     lambda_tr(   1 )=       0.078968   gamma_tr=       0.004805 meV   omega=      9.0680 meV
+     lambda___(   2 )=       0.094412   gamma___=       0.005745 meV   omega=      9.0680 meV
+     lambda_tr(   2 )=       0.078968   gamma_tr=       0.004805 meV   omega=      9.0680 meV
+     lambda___(   3 )=       0.181756   gamma___=       0.018159 meV   omega=     11.6196 meV
+     lambda_tr(   3 )=       0.060126   gamma_tr=       0.006007 meV   omega=     11.6196 meV
+     lambda___( tot )=       0.370580
+     lambda_tr( tot )=       0.218062
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1895 out of     8000
+
+
+     ismear =     1 iq =      20 coord.:   0.31667  0.00000  0.31667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.106169   gamma___=       0.006860 meV   omega=      9.3444 meV
+     lambda_tr(   1 )=       0.082806   gamma_tr=       0.005350 meV   omega=      9.3444 meV
+     lambda___(   2 )=       0.106169   gamma___=       0.006860 meV   omega=      9.3444 meV
+     lambda_tr(   2 )=       0.082806   gamma_tr=       0.005350 meV   omega=      9.3444 meV
+     lambda___(   3 )=       0.156759   gamma___=       0.016366 meV   omega=     11.8782 meV
+     lambda_tr(   3 )=       0.077350   gamma_tr=       0.008076 meV   omega=     11.8782 meV
+     lambda___( tot )=       0.369098
+     lambda_tr( tot )=       0.242961
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1905 out of     8000
+
+
+     ismear =     1 iq =      21 coord.:   0.33333  0.00000  0.33333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.047851   gamma___=       0.003259 meV   omega=      9.5937 meV
+     lambda_tr(   1 )=       0.045665   gamma_tr=       0.003110 meV   omega=      9.5937 meV
+     lambda___(   2 )=       0.047851   gamma___=       0.003259 meV   omega=      9.5937 meV
+     lambda_tr(   2 )=       0.045665   gamma_tr=       0.003110 meV   omega=      9.5937 meV
+     lambda___(   3 )=       0.209604   gamma___=       0.022703 meV   omega=     12.0984 meV
+     lambda_tr(   3 )=       0.118159   gamma_tr=       0.012798 meV   omega=     12.0984 meV
+     lambda___( tot )=       0.305306
+     lambda_tr( tot )=       0.209490
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1938 out of     8000
+
+
+     ismear =     1 iq =      22 coord.:   0.35000  0.00000  0.35000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.087280   gamma___=       0.006224 meV   omega=      9.8163 meV
+     lambda_tr(   1 )=       0.073773   gamma_tr=       0.005260 meV   omega=      9.8163 meV
+     lambda___(   2 )=       0.087280   gamma___=       0.006224 meV   omega=      9.8163 meV
+     lambda_tr(   2 )=       0.073773   gamma_tr=       0.005260 meV   omega=      9.8163 meV
+     lambda___(   3 )=       0.332970   gamma___=       0.037175 meV   omega=     12.2832 meV
+     lambda_tr(   3 )=       0.213767   gamma_tr=       0.023866 meV   omega=     12.2832 meV
+     lambda___( tot )=       0.507530
+     lambda_tr( tot )=       0.361314
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1922 out of     8000
+
+
+     ismear =     1 iq =      23 coord.:   0.36667  0.00000  0.36667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.086237   gamma___=       0.006398 meV   omega=     10.0130 meV
+     lambda_tr(   1 )=       0.084261   gamma_tr=       0.006251 meV   omega=     10.0130 meV
+     lambda___(   2 )=       0.086237   gamma___=       0.006398 meV   omega=     10.0130 meV
+     lambda_tr(   2 )=       0.084261   gamma_tr=       0.006251 meV   omega=     10.0130 meV
+     lambda___(   3 )=       0.134951   gamma___=       0.015444 meV   omega=     12.4359 meV
+     lambda_tr(   3 )=       0.087695   gamma_tr=       0.010036 meV   omega=     12.4359 meV
+     lambda___( tot )=       0.307425
+     lambda_tr( tot )=       0.256218
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1967 out of     8000
+
+
+     ismear =     1 iq =      24 coord.:   0.38333  0.00000  0.38333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.066953   gamma___=       0.005139 meV   omega=     10.1843 meV
+     lambda_tr(   1 )=       0.069123   gamma_tr=       0.005305 meV   omega=     10.1843 meV
+     lambda___(   2 )=       0.066953   gamma___=       0.005139 meV   omega=     10.1843 meV
+     lambda_tr(   2 )=       0.069123   gamma_tr=       0.005305 meV   omega=     10.1843 meV
+     lambda___(   3 )=       0.096129   gamma___=       0.011222 meV   omega=     12.5599 meV
+     lambda_tr(   3 )=       0.061296   gamma_tr=       0.007155 meV   omega=     12.5599 meV
+     lambda___( tot )=       0.230036
+     lambda_tr( tot )=       0.199543
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1999 out of     8000
+
+
+     ismear =     1 iq =      25 coord.:   0.40000  0.00000  0.40000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.052403   gamma___=       0.004139 meV   omega=     10.3310 meV
+     lambda_tr(   1 )=       0.054252   gamma_tr=       0.004285 meV   omega=     10.3310 meV
+     lambda___(   2 )=       0.052403   gamma___=       0.004139 meV   omega=     10.3310 meV
+     lambda_tr(   2 )=       0.054252   gamma_tr=       0.004285 meV   omega=     10.3310 meV
+     lambda___(   3 )=       0.186111   gamma___=       0.022069 meV   omega=     12.6587 meV
+     lambda_tr(   3 )=       0.156632   gamma_tr=       0.018573 meV   omega=     12.6587 meV
+     lambda___( tot )=       0.290917
+     lambda_tr( tot )=       0.265137
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1967 out of     8000
+
+
+     ismear =     1 iq =      26 coord.:   0.41667  0.00000  0.41667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.149507   gamma___=       0.012090 meV   omega=     10.4538 meV
+     lambda_tr(   1 )=       0.152956   gamma_tr=       0.012369 meV   omega=     10.4538 meV
+     lambda___(   2 )=       0.149507   gamma___=       0.012090 meV   omega=     10.4538 meV
+     lambda_tr(   2 )=       0.152956   gamma_tr=       0.012369 meV   omega=     10.4538 meV
+     lambda___(   3 )=       0.175225   gamma___=       0.021031 meV   omega=     12.7356 meV
+     lambda_tr(   3 )=       0.152293   gamma_tr=       0.018279 meV   omega=     12.7356 meV
+     lambda___( tot )=       0.474238
+     lambda_tr( tot )=       0.458206
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2092 out of     8000
+
+
+     ismear =     1 iq =      27 coord.:   0.43333  0.00000  0.43333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.094689   gamma___=       0.007804 meV   omega=     10.5532 meV
+     lambda_tr(   1 )=       0.114950   gamma_tr=       0.009473 meV   omega=     10.5532 meV
+     lambda___(   2 )=       0.094689   gamma___=       0.007804 meV   omega=     10.5532 meV
+     lambda_tr(   2 )=       0.114950   gamma_tr=       0.009473 meV   omega=     10.5532 meV
+     lambda___(   3 )=       0.197065   gamma___=       0.023868 meV   omega=     12.7936 meV
+     lambda_tr(   3 )=       0.191677   gamma_tr=       0.023216 meV   omega=     12.7936 meV
+     lambda___( tot )=       0.386444
+     lambda_tr( tot )=       0.421578
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2196 out of     8000
+
+
+     ismear =     1 iq =      28 coord.:   0.45000  0.00000  0.45000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.043751   gamma___=       0.003658 meV   omega=     10.6299 meV
+     lambda_tr(   1 )=       0.064081   gamma_tr=       0.005358 meV   omega=     10.6299 meV
+     lambda___(   2 )=       0.043751   gamma___=       0.003658 meV   omega=     10.6299 meV
+     lambda_tr(   2 )=       0.064081   gamma_tr=       0.005358 meV   omega=     10.6299 meV
+     lambda___(   3 )=       0.395493   gamma___=       0.048217 meV   omega=     12.8356 meV
+     lambda_tr(   3 )=       0.333574   gamma_tr=       0.040668 meV   omega=     12.8356 meV
+     lambda___( tot )=       0.482995
+     lambda_tr( tot )=       0.461735
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2224 out of     8000
+
+
+     ismear =     1 iq =      29 coord.:   0.46667  0.00000  0.46667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.047838   gamma___=       0.004041 meV   omega=     10.6843 meV
+     lambda_tr(   1 )=       0.065074   gamma_tr=       0.005497 meV   omega=     10.6843 meV
+     lambda___(   2 )=       0.047838   gamma___=       0.004041 meV   omega=     10.6843 meV
+     lambda_tr(   2 )=       0.065074   gamma_tr=       0.005497 meV   omega=     10.6843 meV
+     lambda___(   3 )=       0.304721   gamma___=       0.037314 meV   omega=     12.8639 meV
+     lambda_tr(   3 )=       0.405982   gamma_tr=       0.049714 meV   omega=     12.8639 meV
+     lambda___( tot )=       0.400397
+     lambda_tr( tot )=       0.536130
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2306 out of     8000
+
+
+     ismear =     1 iq =      30 coord.:   0.48333  0.00000  0.48333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.104944   gamma___=       0.008919 meV   omega=     10.7168 meV
+     lambda_tr(   1 )=       0.152973   gamma_tr=       0.013001 meV   omega=     10.7168 meV
+     lambda___(   2 )=       0.104944   gamma___=       0.008919 meV   omega=     10.7168 meV
+     lambda_tr(   2 )=       0.152973   gamma_tr=       0.013001 meV   omega=     10.7168 meV
+     lambda___(   3 )=       0.262153   gamma___=       0.032183 meV   omega=     12.8802 meV
+     lambda_tr(   3 )=       0.389751   gamma_tr=       0.047847 meV   omega=     12.8802 meV
+     lambda___( tot )=       0.472041
+     lambda_tr( tot )=       0.695698
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2390 out of     8000
+
+
+     ismear =     1 iq =      31 coord.:   0.50000  0.00000  0.50000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.166415   gamma___=       0.014172 meV   omega=     10.7276 meV
+     lambda_tr(   1 )=       0.249839   gamma_tr=       0.021276 meV   omega=     10.7276 meV
+     lambda___(   2 )=       0.166415   gamma___=       0.014172 meV   omega=     10.7276 meV
+     lambda_tr(   2 )=       0.249839   gamma_tr=       0.021276 meV   omega=     10.7276 meV
+     lambda___(   3 )=       0.298322   gamma___=       0.036653 meV   omega=     12.8855 meV
+     lambda_tr(   3 )=       0.356472   gamma_tr=       0.043798 meV   omega=     12.8855 meV
+     lambda___( tot )=       0.631151
+     lambda_tr( tot )=       0.856149
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2430 out of     8000
+
+
+     ismear =     1 iq =      32 coord.:   0.50000  0.00833  0.50833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.140472   gamma___=       0.011964 meV   omega=     10.7283 meV
+     lambda_tr(   1 )=       0.207294   gamma_tr=       0.017655 meV   omega=     10.7283 meV
+     lambda___(   2 )=       0.140443   gamma___=       0.011964 meV   omega=     10.7294 meV
+     lambda_tr(   2 )=       0.207251   gamma_tr=       0.017655 meV   omega=     10.7294 meV
+     lambda___(   3 )=       0.257067   gamma___=       0.031574 meV   omega=     12.8833 meV
+     lambda_tr(   3 )=       0.350927   gamma_tr=       0.043102 meV   omega=     12.8833 meV
+     lambda___( tot )=       0.537982
+     lambda_tr( tot )=       0.765472
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2407 out of     8000
+
+
+     ismear =     1 iq =      33 coord.:   0.50000  0.01667  0.51667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.094153   gamma___=       0.008022 meV   omega=     10.7303 meV
+     lambda_tr(   1 )=       0.133515   gamma_tr=       0.011376 meV   omega=     10.7303 meV
+     lambda___(   2 )=       0.094075   gamma___=       0.008022 meV   omega=     10.7347 meV
+     lambda_tr(   2 )=       0.133404   gamma_tr=       0.011376 meV   omega=     10.7347 meV
+     lambda___(   3 )=       0.262796   gamma___=       0.032245 meV   omega=     12.8769 meV
+     lambda_tr(   3 )=       0.402829   gamma_tr=       0.049428 meV   omega=     12.8769 meV
+     lambda___( tot )=       0.451024
+     lambda_tr( tot )=       0.669748
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2393 out of     8000
+
+
+     ismear =     1 iq =      34 coord.:   0.50000  0.02500  0.52500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.073129   gamma___=       0.006235 meV   omega=     10.7337 meV
+     lambda_tr(   1 )=       0.093233   gamma_tr=       0.007949 meV   omega=     10.7337 meV
+     lambda___(   2 )=       0.072995   gamma___=       0.006235 meV   omega=     10.7436 meV
+     lambda_tr(   2 )=       0.093062   gamma_tr=       0.007949 meV   omega=     10.7436 meV
+     lambda___(   3 )=       0.337411   gamma___=       0.041332 meV   omega=     12.8662 meV
+     lambda_tr(   3 )=       0.499227   gamma_tr=       0.061154 meV   omega=     12.8662 meV
+     lambda___( tot )=       0.483536
+     lambda_tr( tot )=       0.685523
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2338 out of     8000
+
+
+     ismear =     1 iq =      35 coord.:   0.50000  0.03333  0.53333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070167   gamma___=       0.005988 meV   omega=     10.7385 meV
+     lambda_tr(   1 )=       0.080627   gamma_tr=       0.006880 meV   omega=     10.7385 meV
+     lambda___(   2 )=       0.073365   gamma___=       0.006281 meV   omega=     10.7558 meV
+     lambda_tr(   2 )=       0.076973   gamma_tr=       0.006589 meV   omega=     10.7558 meV
+     lambda___(   3 )=       0.357580   gamma___=       0.043702 meV   omega=     12.8514 meV
+     lambda_tr(   3 )=       0.526677   gamma_tr=       0.064368 meV   omega=     12.8514 meV
+     lambda___( tot )=       0.501112
+     lambda_tr( tot )=       0.684277
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2320 out of     8000
+
+
+     ismear =     1 iq =      36 coord.:   0.50000  0.04167  0.54167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.058221   gamma___=       0.004974 meV   omega=     10.7448 meV
+     lambda_tr(   1 )=       0.073063   gamma_tr=       0.006242 meV   omega=     10.7448 meV
+     lambda___(   2 )=       0.050868   gamma___=       0.004367 meV   omega=     10.7713 meV
+     lambda_tr(   2 )=       0.064066   gamma_tr=       0.005500 meV   omega=     10.7713 meV
+     lambda___(   3 )=       0.434377   gamma___=       0.052930 meV   omega=     12.8324 meV
+     lambda_tr(   3 )=       0.600444   gamma_tr=       0.073166 meV   omega=     12.8324 meV
+     lambda___( tot )=       0.543466
+     lambda_tr( tot )=       0.737573
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2304 out of     8000
+
+
+     ismear =     1 iq =      37 coord.:   0.50000  0.05000  0.55000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.045943   gamma___=       0.003931 meV   omega=     10.7526 meV
+     lambda_tr(   1 )=       0.066616   gamma_tr=       0.005699 meV   omega=     10.7526 meV
+     lambda___(   2 )=       0.042269   gamma___=       0.003641 meV   omega=     10.7899 meV
+     lambda_tr(   2 )=       0.063125   gamma_tr=       0.005438 meV   omega=     10.7899 meV
+     lambda___(   3 )=       0.460100   gamma___=       0.055864 meV   omega=     12.8093 meV
+     lambda_tr(   3 )=       0.607848   gamma_tr=       0.073802 meV   omega=     12.8093 meV
+     lambda___( tot )=       0.548312
+     lambda_tr( tot )=       0.737589
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2286 out of     8000
+
+
+     ismear =     1 iq =      38 coord.:   0.50000  0.05833  0.55833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.046009   gamma___=       0.003943 meV   omega=     10.7619 meV
+     lambda_tr(   1 )=       0.065696   gamma_tr=       0.005630 meV   omega=     10.7619 meV
+     lambda___(   2 )=       0.054547   gamma___=       0.004718 meV   omega=     10.8113 meV
+     lambda_tr(   2 )=       0.075737   gamma_tr=       0.006551 meV   omega=     10.8113 meV
+     lambda___(   3 )=       0.337682   gamma___=       0.040828 meV   omega=     12.7823 meV
+     lambda_tr(   3 )=       0.439509   gamma_tr=       0.053139 meV   omega=     12.7823 meV
+     lambda___( tot )=       0.438238
+     lambda_tr( tot )=       0.580942
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2235 out of     8000
+
+
+     ismear =     1 iq =      39 coord.:   0.50000  0.06667  0.56667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.068323   gamma___=       0.005867 meV   omega=     10.7728 meV
+     lambda_tr(   1 )=       0.092461   gamma_tr=       0.007940 meV   omega=     10.7728 meV
+     lambda___(   2 )=       0.079793   gamma___=       0.006932 meV   omega=     10.8353 meV
+     lambda_tr(   2 )=       0.104370   gamma_tr=       0.009068 meV   omega=     10.8353 meV
+     lambda___(   3 )=       0.255455   gamma___=       0.030737 meV   omega=     12.7516 meV
+     lambda_tr(   3 )=       0.324027   gamma_tr=       0.038988 meV   omega=     12.7516 meV
+     lambda___( tot )=       0.403570
+     lambda_tr( tot )=       0.520859
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2217 out of     8000
+
+
+     ismear =     1 iq =      40 coord.:   0.50000  0.07500  0.57500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.117240   gamma___=       0.010092 meV   omega=     10.7854 meV
+     lambda_tr(   1 )=       0.153958   gamma_tr=       0.013253 meV   omega=     10.7854 meV
+     lambda___(   2 )=       0.087910   gamma___=       0.007675 meV   omega=     10.8617 meV
+     lambda_tr(   2 )=       0.118441   gamma_tr=       0.010340 meV   omega=     10.8617 meV
+     lambda___(   3 )=       0.183825   gamma___=       0.021999 meV   omega=     12.7171 meV
+     lambda_tr(   3 )=       0.237667   gamma_tr=       0.028443 meV   omega=     12.7171 meV
+     lambda___( tot )=       0.388974
+     lambda_tr( tot )=       0.510066
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2172 out of     8000
+
+
+     ismear =     1 iq =      41 coord.:   0.50000  0.08333  0.58333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.181135   gamma___=       0.015633 meV   omega=     10.7997 meV
+     lambda_tr(   1 )=       0.212603   gamma_tr=       0.018349 meV   omega=     10.7997 meV
+     lambda___(   2 )=       0.099070   gamma___=       0.008694 meV   omega=     10.8900 meV
+     lambda_tr(   2 )=       0.122293   gamma_tr=       0.010732 meV   omega=     10.8900 meV
+     lambda___(   3 )=       0.118288   gamma___=       0.014072 meV   omega=     12.6792 meV
+     lambda_tr(   3 )=       0.137309   gamma_tr=       0.016335 meV   omega=     12.6792 meV
+     lambda___( tot )=       0.398493
+     lambda_tr( tot )=       0.472205
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2122 out of     8000
+
+
+     ismear =     1 iq =      42 coord.:   0.50000  0.09167  0.59167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.231739   gamma___=       0.020061 meV   omega=     10.8159 meV
+     lambda_tr(   1 )=       0.245290   gamma_tr=       0.021234 meV   omega=     10.8159 meV
+     lambda___(   2 )=       0.121047   gamma___=       0.010681 meV   omega=     10.9201 meV
+     lambda_tr(   2 )=       0.137854   gamma_tr=       0.012164 meV   omega=     10.9201 meV
+     lambda___(   3 )=       0.124218   gamma___=       0.014681 meV   omega=     12.6380 meV
+     lambda_tr(   3 )=       0.134062   gamma_tr=       0.015845 meV   omega=     12.6380 meV
+     lambda___( tot )=       0.477004
+     lambda_tr( tot )=       0.517206
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2064 out of     8000
+
+
+     ismear =     1 iq =      43 coord.:   0.50000  0.10000  0.60000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.250336   gamma___=       0.021743 meV   omega=     10.8340 meV
+     lambda_tr(   1 )=       0.255004   gamma_tr=       0.022149 meV   omega=     10.8340 meV
+     lambda___(   2 )=       0.131123   gamma___=       0.011637 meV   omega=     10.9514 meV
+     lambda_tr(   2 )=       0.149476   gamma_tr=       0.013266 meV   omega=     10.9514 meV
+     lambda___(   3 )=       0.144671   gamma___=       0.016979 meV   omega=     12.5936 meV
+     lambda_tr(   3 )=       0.158624   gamma_tr=       0.018616 meV   omega=     12.5936 meV
+     lambda___( tot )=       0.526129
+     lambda_tr( tot )=       0.563105
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2018 out of     8000
+
+
+     ismear =     1 iq =      44 coord.:   0.50000  0.10833  0.60833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.230851   gamma___=       0.020126 meV   omega=     10.8541 meV
+     lambda_tr(   1 )=       0.236896   gamma_tr=       0.020652 meV   omega=     10.8541 meV
+     lambda___(   2 )=       0.115378   gamma___=       0.010300 meV   omega=     10.9838 meV
+     lambda_tr(   2 )=       0.130459   gamma_tr=       0.011647 meV   omega=     10.9838 meV
+     lambda___(   3 )=       0.137687   gamma___=       0.016038 meV   omega=     12.5464 meV
+     lambda_tr(   3 )=       0.132756   gamma_tr=       0.015464 meV   omega=     12.5464 meV
+     lambda___( tot )=       0.483917
+     lambda_tr( tot )=       0.500110
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1960 out of     8000
+
+
+     ismear =     1 iq =      45 coord.:   0.50000  0.11667  0.61667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.198477   gamma___=       0.017374 meV   omega=     10.8763 meV
+     lambda_tr(   1 )=       0.215431   gamma_tr=       0.018858 meV   omega=     10.8763 meV
+     lambda___(   2 )=       0.099092   gamma___=       0.008900 meV   omega=     11.0168 meV
+     lambda_tr(   2 )=       0.116670   gamma_tr=       0.010478 meV   omega=     11.0168 meV
+     lambda___(   3 )=       0.150565   gamma___=       0.017399 meV   omega=     12.4964 meV
+     lambda_tr(   3 )=       0.148768   gamma_tr=       0.017191 meV   omega=     12.4964 meV
+     lambda___( tot )=       0.448134
+     lambda_tr( tot )=       0.480870
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1980 out of     8000
+
+
+     ismear =     1 iq =      46 coord.:   0.50000  0.12500  0.62500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.183571   gamma___=       0.016141 meV   omega=     10.9006 meV
+     lambda_tr(   1 )=       0.216550   gamma_tr=       0.019041 meV   omega=     10.9006 meV
+     lambda___(   2 )=       0.087218   gamma___=       0.007881 meV   omega=     11.0501 meV
+     lambda_tr(   2 )=       0.111006   gamma_tr=       0.010030 meV   omega=     11.0501 meV
+     lambda___(   3 )=       0.151568   gamma___=       0.017368 meV   omega=     12.4440 meV
+     lambda_tr(   3 )=       0.170425   gamma_tr=       0.019529 meV   omega=     12.4440 meV
+     lambda___( tot )=       0.422357
+     lambda_tr( tot )=       0.497981
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1937 out of     8000
+
+
+     ismear =     1 iq =      47 coord.:   0.50000  0.13333  0.63333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.206731   gamma___=       0.018266 meV   omega=     10.9271 meV
+     lambda_tr(   1 )=       0.241288   gamma_tr=       0.021319 meV   omega=     10.9271 meV
+     lambda___(   2 )=       0.079463   gamma___=       0.007223 meV   omega=     11.0832 meV
+     lambda_tr(   2 )=       0.106031   gamma_tr=       0.009638 meV   omega=     11.0832 meV
+     lambda___(   3 )=       0.169102   gamma___=       0.019208 meV   omega=     12.3894 meV
+     lambda_tr(   3 )=       0.189951   gamma_tr=       0.021576 meV   omega=     12.3894 meV
+     lambda___( tot )=       0.455297
+     lambda_tr( tot )=       0.537270
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1901 out of     8000
+
+
+     ismear =     1 iq =      48 coord.:   0.50000  0.14167  0.64167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.245675   gamma___=       0.021821 meV   omega=     10.9559 meV
+     lambda_tr(   1 )=       0.276867   gamma_tr=       0.024592 meV   omega=     10.9559 meV
+     lambda___(   2 )=       0.076849   gamma___=       0.007027 meV   omega=     11.1160 meV
+     lambda_tr(   2 )=       0.106023   gamma_tr=       0.009694 meV   omega=     11.1160 meV
+     lambda___(   3 )=       0.186724   gamma___=       0.021016 meV   omega=     12.3328 meV
+     lambda_tr(   3 )=       0.187214   gamma_tr=       0.021071 meV   omega=     12.3328 meV
+     lambda___( tot )=       0.509248
+     lambda_tr( tot )=       0.570104
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1863 out of     8000
+
+
+     ismear =     1 iq =      49 coord.:   0.50000  0.15000  0.65000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.261483   gamma___=       0.023357 meV   omega=     10.9870 meV
+     lambda_tr(   1 )=       0.307829   gamma_tr=       0.027497 meV   omega=     10.9870 meV
+     lambda___(   2 )=       0.075665   gamma___=       0.006958 meV   omega=     11.1478 meV
+     lambda_tr(   2 )=       0.108922   gamma_tr=       0.010017 meV   omega=     11.1478 meV
+     lambda___(   3 )=       0.204204   gamma___=       0.022767 meV   omega=     12.2745 meV
+     lambda_tr(   3 )=       0.202558   gamma_tr=       0.022583 meV   omega=     12.2745 meV
+     lambda___( tot )=       0.541351
+     lambda_tr( tot )=       0.619310
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1828 out of     8000
+
+
+     ismear =     1 iq =      50 coord.:   0.50000  0.15833  0.65833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.228808   gamma___=       0.020563 meV   omega=     11.0204 meV
+     lambda_tr(   1 )=       0.275930   gamma_tr=       0.024798 meV   omega=     11.0204 meV
+     lambda___(   2 )=       0.075923   gamma___=       0.007021 meV   omega=     11.1786 meV
+     lambda_tr(   2 )=       0.105155   gamma_tr=       0.009724 meV   omega=     11.1786 meV
+     lambda___(   3 )=       0.189326   gamma___=       0.020903 meV   omega=     12.2148 meV
+     lambda_tr(   3 )=       0.189412   gamma_tr=       0.020912 meV   omega=     12.2148 meV
+     lambda___( tot )=       0.494057
+     lambda_tr( tot )=       0.570497
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1810 out of     8000
+
+
+     ismear =     1 iq =      51 coord.:   0.50000  0.16667  0.66667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.196397   gamma___=       0.017765 meV   omega=     11.0562 meV
+     lambda_tr(   1 )=       0.230971   gamma_tr=       0.020893 meV   omega=     11.0562 meV
+     lambda___(   2 )=       0.077185   gamma___=       0.007175 meV   omega=     11.2078 meV
+     lambda_tr(   2 )=       0.097930   gamma_tr=       0.009103 meV   omega=     11.2078 meV
+     lambda___(   3 )=       0.153254   gamma___=       0.016752 meV   omega=     12.1539 meV
+     lambda_tr(   3 )=       0.158015   gamma_tr=       0.017272 meV   omega=     12.1539 meV
+     lambda___( tot )=       0.426836
+     lambda_tr( tot )=       0.486916
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1836 out of     8000
+
+
+     ismear =     1 iq =      52 coord.:   0.50000  0.17500  0.67500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.202550   gamma___=       0.018449 meV   omega=     11.0944 meV
+     lambda_tr(   1 )=       0.222394   gamma_tr=       0.020256 meV   omega=     11.0944 meV
+     lambda___(   2 )=       0.076001   gamma___=       0.007099 meV   omega=     11.2353 meV
+     lambda_tr(   2 )=       0.089548   gamma_tr=       0.008365 meV   omega=     11.2353 meV
+     lambda___(   3 )=       0.120655   gamma___=       0.013055 meV   omega=     12.0921 meV
+     lambda_tr(   3 )=       0.135291   gamma_tr=       0.014638 meV   omega=     12.0921 meV
+     lambda___( tot )=       0.399205
+     lambda_tr( tot )=       0.447232
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1811 out of     8000
+
+
+     ismear =     1 iq =      53 coord.:   0.50000  0.18333  0.68333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.238767   gamma___=       0.021906 meV   omega=     11.1349 meV
+     lambda_tr(   1 )=       0.252583   gamma_tr=       0.023174 meV   omega=     11.1349 meV
+     lambda___(   2 )=       0.092364   gamma___=       0.008667 meV   omega=     11.2607 meV
+     lambda_tr(   2 )=       0.098221   gamma_tr=       0.009216 meV   omega=     11.2607 meV
+     lambda___(   3 )=       0.113990   gamma___=       0.012207 meV   omega=     12.0296 meV
+     lambda_tr(   3 )=       0.140526   gamma_tr=       0.015048 meV   omega=     12.0296 meV
+     lambda___( tot )=       0.445121
+     lambda_tr( tot )=       0.491330
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1785 out of     8000
+
+
+     ismear =     1 iq =      54 coord.:   0.50000  0.19167  0.69167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.291457   gamma___=       0.026947 meV   omega=     11.1778 meV
+     lambda_tr(   1 )=       0.319027   gamma_tr=       0.029496 meV   omega=     11.1778 meV
+     lambda___(   2 )=       0.121945   gamma___=       0.011489 meV   omega=     11.2838 meV
+     lambda_tr(   2 )=       0.123646   gamma_tr=       0.011650 meV   omega=     11.2838 meV
+     lambda___(   3 )=       0.126775   gamma___=       0.013434 meV   omega=     11.9668 meV
+     lambda_tr(   3 )=       0.169869   gamma_tr=       0.018001 meV   omega=     11.9668 meV
+     lambda___( tot )=       0.540177
+     lambda_tr( tot )=       0.612541
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1777 out of     8000
+
+
+     ismear =     1 iq =      55 coord.:   0.50000  0.20000  0.70000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.308787   gamma___=       0.028781 meV   omega=     11.2230 meV
+     lambda_tr(   1 )=       0.345224   gamma_tr=       0.032177 meV   omega=     11.2230 meV
+     lambda___(   2 )=       0.128899   gamma___=       0.012189 meV   omega=     11.3043 meV
+     lambda_tr(   2 )=       0.131189   gamma_tr=       0.012405 meV   omega=     11.3043 meV
+     lambda___(   3 )=       0.130796   gamma___=       0.013715 meV   omega=     11.9038 meV
+     lambda_tr(   3 )=       0.187080   gamma_tr=       0.019617 meV   omega=     11.9038 meV
+     lambda___( tot )=       0.568482
+     lambda_tr( tot )=       0.663492
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1770 out of     8000
+
+
+     ismear =     1 iq =      56 coord.:   0.50000  0.20833  0.70833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.256515   gamma___=       0.024111 meV   omega=     11.2704 meV
+     lambda_tr(   1 )=       0.293263   gamma_tr=       0.027565 meV   omega=     11.2704 meV
+     lambda___(   2 )=       0.105801   gamma___=       0.010036 meV   omega=     11.3220 meV
+     lambda_tr(   2 )=       0.107207   gamma_tr=       0.010169 meV   omega=     11.3220 meV
+     lambda___(   3 )=       0.130799   gamma___=       0.013571 meV   omega=     11.8410 meV
+     lambda_tr(   3 )=       0.188421   gamma_tr=       0.019549 meV   omega=     11.8410 meV
+     lambda___( tot )=       0.493115
+     lambda_tr( tot )=       0.588891
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1754 out of     8000
+
+
+     ismear =     1 iq =      57 coord.:   0.50000  0.21667  0.71667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.197003   gamma___=       0.018681 meV   omega=     11.3200 meV
+     lambda_tr(   1 )=       0.232494   gamma_tr=       0.022046 meV   omega=     11.3200 meV
+     lambda___(   2 )=       0.083562   gamma___=       0.007947 meV   omega=     11.3367 meV
+     lambda_tr(   2 )=       0.078929   gamma_tr=       0.007506 meV   omega=     11.3367 meV
+     lambda___(   3 )=       0.130723   gamma___=       0.013420 meV   omega=     11.7786 meV
+     lambda_tr(   3 )=       0.183763   gamma_tr=       0.018866 meV   omega=     11.7786 meV
+     lambda___( tot )=       0.411288
+     lambda_tr( tot )=       0.495186
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1758 out of     8000
+
+
+     ismear =     1 iq =      58 coord.:   0.50000  0.22500  0.72500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.076421   gamma___=       0.007283 meV   omega=     11.3483 meV
+     lambda_tr(   1 )=       0.058446   gamma_tr=       0.005570 meV   omega=     11.3483 meV
+     lambda___(   2 )=       0.168690   gamma___=       0.016142 meV   omega=     11.3716 meV
+     lambda_tr(   2 )=       0.196856   gamma_tr=       0.018837 meV   omega=     11.3716 meV
+     lambda___(   3 )=       0.110285   gamma___=       0.011204 meV   omega=     11.7169 meV
+     lambda_tr(   3 )=       0.159535   gamma_tr=       0.016207 meV   omega=     11.7169 meV
+     lambda___( tot )=       0.355396
+     lambda_tr( tot )=       0.414836
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1753 out of     8000
+
+
+     ismear =     1 iq =      59 coord.:   0.50000  0.23333  0.73333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070947   gamma___=       0.006771 meV   omega=     11.3567 meV
+     lambda_tr(   1 )=       0.046480   gamma_tr=       0.004436 meV   omega=     11.3567 meV
+     lambda___(   2 )=       0.156548   gamma___=       0.015122 meV   omega=     11.4252 meV
+     lambda_tr(   2 )=       0.180927   gamma_tr=       0.017477 meV   omega=     11.4252 meV
+     lambda___(   3 )=       0.098936   gamma___=       0.009947 meV   omega=     11.6560 meV
+     lambda_tr(   3 )=       0.145710   gamma_tr=       0.014649 meV   omega=     11.6560 meV
+     lambda___( tot )=       0.326431
+     lambda_tr( tot )=       0.373116
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1737 out of     8000
+
+
+     ismear =     1 iq =      60 coord.:   0.50000  0.24167  0.74167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.046911   gamma___=       0.004481 meV   omega=     11.3617 meV
+     lambda_tr(   1 )=       0.038824   gamma_tr=       0.003709 meV   omega=     11.3617 meV
+     lambda___(   2 )=       0.126547   gamma___=       0.012343 meV   omega=     11.4806 meV
+     lambda_tr(   2 )=       0.164686   gamma_tr=       0.016063 meV   omega=     11.4806 meV
+     lambda___(   3 )=       0.095353   gamma___=       0.009488 meV   omega=     11.5962 meV
+     lambda_tr(   3 )=       0.145863   gamma_tr=       0.014514 meV   omega=     11.5962 meV
+     lambda___( tot )=       0.268811
+     lambda_tr( tot )=       0.349373
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1731 out of     8000
+
+
+     ismear =     1 iq =      61 coord.:   0.50000  0.25000  0.75000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.034135   gamma___=       0.003262 meV   omega=     11.3634 meV
+     lambda_tr(   1 )=       0.037269   gamma_tr=       0.003561 meV   omega=     11.3634 meV
+     lambda___(   2 )=       0.101667   gamma___=       0.010015 meV   omega=     11.5377 meV
+     lambda_tr(   2 )=       0.153765   gamma_tr=       0.015147 meV   omega=     11.5377 meV
+     lambda___(   3 )=       0.101667   gamma___=       0.010015 meV   omega=     11.5377 meV
+     lambda_tr(   3 )=       0.153765   gamma_tr=       0.015147 meV   omega=     11.5377 meV
+     lambda___( tot )=       0.237469
+     lambda_tr( tot )=       0.344798
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1744 out of     8000
+
+
+     ismear =     1 iq =      62 coord.:   0.50000  0.25833  0.74167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.074382   gamma___=       0.007036 meV   omega=     11.3061 meV
+     lambda_tr(   1 )=       0.065490   gamma_tr=       0.006195 meV   omega=     11.3061 meV
+     lambda___(   2 )=       0.150570   gamma___=       0.014817 meV   omega=     11.5320 meV
+     lambda_tr(   2 )=       0.209614   gamma_tr=       0.020628 meV   omega=     11.5320 meV
+     lambda___(   3 )=       0.105473   gamma___=       0.010494 meV   omega=     11.5957 meV
+     lambda_tr(   3 )=       0.151494   gamma_tr=       0.015073 meV   omega=     11.5957 meV
+     lambda___( tot )=       0.330425
+     lambda_tr( tot )=       0.426599
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1741 out of     8000
+
+
+     ismear =     1 iq =      63 coord.:   0.50000  0.26667  0.73333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.127225   gamma___=       0.011820 meV   omega=     11.2048 meV
+     lambda_tr(   1 )=       0.101497   gamma_tr=       0.009430 meV   omega=     11.2048 meV
+     lambda___(   2 )=       0.202416   gamma___=       0.019861 meV   omega=     11.5149 meV
+     lambda_tr(   2 )=       0.242720   gamma_tr=       0.023815 meV   omega=     11.5149 meV
+     lambda___(   3 )=       0.127413   gamma___=       0.012904 meV   omega=     11.6988 meV
+     lambda_tr(   3 )=       0.136389   gamma_tr=       0.013813 meV   omega=     11.6988 meV
+     lambda___( tot )=       0.457055
+     lambda_tr( tot )=       0.480606
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1735 out of     8000
+
+
+     ismear =     1 iq =      64 coord.:   0.50000  0.27500  0.72500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.106094   gamma___=       0.009667 meV   omega=     11.0965 meV
+     lambda_tr(   1 )=       0.086182   gamma_tr=       0.007853 meV   omega=     11.0965 meV
+     lambda___(   2 )=       0.123844   gamma___=       0.012092 meV   omega=     11.4866 meV
+     lambda_tr(   2 )=       0.134027   gamma_tr=       0.013086 meV   omega=     11.4866 meV
+     lambda___(   3 )=       0.139992   gamma___=       0.014449 meV   omega=     11.8103 meV
+     lambda_tr(   3 )=       0.124553   gamma_tr=       0.012856 meV   omega=     11.8103 meV
+     lambda___( tot )=       0.369930
+     lambda_tr( tot )=       0.344762
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1721 out of     8000
+
+
+     ismear =     1 iq =      65 coord.:   0.50000  0.28333  0.71667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.096656   gamma___=       0.008634 meV   omega=     10.9870 meV
+     lambda_tr(   1 )=       0.100289   gamma_tr=       0.008959 meV   omega=     10.9870 meV
+     lambda___(   2 )=       0.153534   gamma___=       0.014888 meV   omega=     11.4474 meV
+     lambda_tr(   2 )=       0.196054   gamma_tr=       0.019011 meV   omega=     11.4474 meV
+     lambda___(   3 )=       0.132692   gamma___=       0.013961 meV   omega=     11.9242 meV
+     lambda_tr(   3 )=       0.122669   gamma_tr=       0.012907 meV   omega=     11.9242 meV
+     lambda___( tot )=       0.382882
+     lambda_tr( tot )=       0.419012
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1705 out of     8000
+
+
+     ismear =     1 iq =      66 coord.:   0.50000  0.29167  0.70833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.090971   gamma___=       0.007966 meV   omega=     10.8779 meV
+     lambda_tr(   1 )=       0.101412   gamma_tr=       0.008880 meV   omega=     10.8779 meV
+     lambda___(   2 )=       0.115433   gamma___=       0.011096 meV   omega=     11.3974 meV
+     lambda_tr(   2 )=       0.119724   gamma_tr=       0.011509 meV   omega=     11.3974 meV
+     lambda___(   3 )=       0.089276   gamma___=       0.009575 meV   omega=     12.0387 meV
+     lambda_tr(   3 )=       0.107307   gamma_tr=       0.011508 meV   omega=     12.0387 meV
+     lambda___( tot )=       0.295681
+     lambda_tr( tot )=       0.328442
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1681 out of     8000
+
+
+     ismear =     1 iq =      67 coord.:   0.50000  0.30000  0.70000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.080195   gamma___=       0.006883 meV   omega=     10.7700 meV
+     lambda_tr(   1 )=       0.083490   gamma_tr=       0.007166 meV   omega=     10.7700 meV
+     lambda___(   2 )=       0.091169   gamma___=       0.008671 meV   omega=     11.3372 meV
+     lambda_tr(   2 )=       0.079594   gamma_tr=       0.007570 meV   omega=     11.3372 meV
+     lambda___(   3 )=       0.076764   gamma___=       0.008390 meV   omega=     12.1532 meV
+     lambda_tr(   3 )=       0.094853   gamma_tr=       0.010367 meV   omega=     12.1532 meV
+     lambda___( tot )=       0.248129
+     lambda_tr( tot )=       0.257937
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1666 out of     8000
+
+
+     ismear =     1 iq =      68 coord.:   0.50000  0.30833  0.69167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.084116   gamma___=       0.007078 meV   omega=     10.6636 meV
+     lambda_tr(   1 )=       0.088720   gamma_tr=       0.007465 meV   omega=     10.6636 meV
+     lambda___(   2 )=       0.100459   gamma___=       0.009437 meV   omega=     11.2672 meV
+     lambda_tr(   2 )=       0.088091   gamma_tr=       0.008275 meV   omega=     11.2672 meV
+     lambda___(   3 )=       0.121031   gamma___=       0.013477 meV   omega=     12.2670 meV
+     lambda_tr(   3 )=       0.114382   gamma_tr=       0.012737 meV   omega=     12.2670 meV
+     lambda___( tot )=       0.305605
+     lambda_tr( tot )=       0.291193
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1689 out of     8000
+
+
+     ismear =     1 iq =      69 coord.:   0.50000  0.31667  0.68333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.114836   gamma___=       0.009474 meV   omega=     10.5590 meV
+     lambda_tr(   1 )=       0.127923   gamma_tr=       0.010554 meV   omega=     10.5590 meV
+     lambda___(   2 )=       0.144833   gamma___=       0.013415 meV   omega=     11.1881 meV
+     lambda_tr(   2 )=       0.140209   gamma_tr=       0.012987 meV   omega=     11.1881 meV
+     lambda___(   3 )=       0.147022   gamma___=       0.016674 meV   omega=     12.3798 meV
+     lambda_tr(   3 )=       0.095200   gamma_tr=       0.010797 meV   omega=     12.3798 meV
+     lambda___( tot )=       0.406692
+     lambda_tr( tot )=       0.363332
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1706 out of     8000
+
+
+     ismear =     1 iq =      70 coord.:   0.50000  0.32500  0.67500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.113100   gamma___=       0.009151 meV   omega=     10.4566 meV
+     lambda_tr(   1 )=       0.114600   gamma_tr=       0.009272 meV   omega=     10.4566 meV
+     lambda___(   2 )=       0.129603   gamma___=       0.011817 meV   omega=     11.1005 meV
+     lambda_tr(   2 )=       0.115744   gamma_tr=       0.010554 meV   omega=     11.1005 meV
+     lambda___(   3 )=       0.106725   gamma___=       0.012322 meV   omega=     12.4911 meV
+     lambda_tr(   3 )=       0.078850   gamma_tr=       0.009104 meV   omega=     12.4911 meV
+     lambda___( tot )=       0.349429
+     lambda_tr( tot )=       0.309194
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1744 out of     8000
+
+
+     ismear =     1 iq =      71 coord.:   0.50000  0.33333  0.66667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.137441   gamma___=       0.010909 meV   omega=     10.3566 meV
+     lambda_tr(   1 )=       0.135587   gamma_tr=       0.010762 meV   omega=     10.3566 meV
+     lambda___(   2 )=       0.129605   gamma___=       0.011615 meV   omega=     11.0051 meV
+     lambda_tr(   2 )=       0.115449   gamma_tr=       0.010347 meV   omega=     11.0051 meV
+     lambda___(   3 )=       0.153495   gamma___=       0.018034 meV   omega=     12.6006 meV
+     lambda_tr(   3 )=       0.123109   gamma_tr=       0.014464 meV   omega=     12.6006 meV
+     lambda___( tot )=       0.420540
+     lambda_tr( tot )=       0.374145
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1761 out of     8000
+
+
+     ismear =     1 iq =      72 coord.:   0.50000  0.34167  0.65833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.136622   gamma___=       0.010641 meV   omega=     10.2591 meV
+     lambda_tr(   1 )=       0.128640   gamma_tr=       0.010019 meV   omega=     10.2591 meV
+     lambda___(   2 )=       0.107182   gamma___=       0.009428 meV   omega=     10.9029 meV
+     lambda_tr(   2 )=       0.081691   gamma_tr=       0.007186 meV   omega=     10.9029 meV
+     lambda___(   3 )=       0.109160   gamma___=       0.013045 meV   omega=     12.7079 meV
+     lambda_tr(   3 )=       0.101347   gamma_tr=       0.012111 meV   omega=     12.7079 meV
+     lambda___( tot )=       0.352964
+     lambda_tr( tot )=       0.311677
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1767 out of     8000
+
+
+     ismear =     1 iq =      73 coord.:   0.50000  0.35000  0.65000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.147890   gamma___=       0.011307 meV   omega=     10.1645 meV
+     lambda_tr(   1 )=       0.138239   gamma_tr=       0.010569 meV   omega=     10.1645 meV
+     lambda___(   2 )=       0.133026   gamma___=       0.011471 meV   omega=     10.7948 meV
+     lambda_tr(   2 )=       0.116420   gamma_tr=       0.010039 meV   omega=     10.7948 meV
+     lambda___(   3 )=       0.080910   gamma___=       0.009829 meV   omega=     12.8126 meV
+     lambda_tr(   3 )=       0.084858   gamma_tr=       0.010308 meV   omega=     12.8126 meV
+     lambda___( tot )=       0.361826
+     lambda_tr( tot )=       0.339517
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1786 out of     8000
+
+
+     ismear =     1 iq =      74 coord.:   0.50000  0.35833  0.64167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.130913   gamma___=       0.009829 meV   omega=     10.0730 meV
+     lambda_tr(   1 )=       0.129657   gamma_tr=       0.009735 meV   omega=     10.0730 meV
+     lambda___(   2 )=       0.161229   gamma___=       0.013613 meV   omega=     10.6818 meV
+     lambda_tr(   2 )=       0.129375   gamma_tr=       0.010924 meV   omega=     10.6818 meV
+     lambda___(   3 )=       0.092516   gamma___=       0.011418 meV   omega=     12.9144 meV
+     lambda_tr(   3 )=       0.085588   gamma_tr=       0.010563 meV   omega=     12.9144 meV
+     lambda___( tot )=       0.384658
+     lambda_tr( tot )=       0.344620
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1811 out of     8000
+
+
+     ismear =     1 iq =      75 coord.:   0.50000  0.36667  0.63333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.155110   gamma___=       0.011443 meV   omega=      9.9848 meV
+     lambda_tr(   1 )=       0.158389   gamma_tr=       0.011685 meV   omega=      9.9848 meV
+     lambda___(   2 )=       0.200350   gamma___=       0.016548 meV   omega=     10.5649 meV
+     lambda_tr(   2 )=       0.132628   gamma_tr=       0.010955 meV   omega=     10.5649 meV
+     lambda___(   3 )=       0.129550   gamma___=       0.016233 meV   omega=     13.0128 meV
+     lambda_tr(   3 )=       0.093631   gamma_tr=       0.011732 meV   omega=     13.0128 meV
+     lambda___( tot )=       0.485010
+     lambda_tr( tot )=       0.384648
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1802 out of     8000
+
+
+     ismear =     1 iq =      76 coord.:   0.50000  0.37500  0.62500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.137354   gamma___=       0.009962 meV   omega=      9.9001 meV
+     lambda_tr(   1 )=       0.135821   gamma_tr=       0.009851 meV   omega=      9.9001 meV
+     lambda___(   2 )=       0.180492   gamma___=       0.014573 meV   omega=     10.4455 meV
+     lambda_tr(   2 )=       0.099194   gamma_tr=       0.008009 meV   omega=     10.4455 meV
+     lambda___(   3 )=       0.096993   gamma___=       0.012331 meV   omega=     13.1076 meV
+     lambda_tr(   3 )=       0.069254   gamma_tr=       0.008805 meV   omega=     13.1076 meV
+     lambda___( tot )=       0.414839
+     lambda_tr( tot )=       0.304269
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1836 out of     8000
+
+
+     ismear =     1 iq =      77 coord.:   0.50000  0.38333  0.61667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.146630   gamma___=       0.010462 meV   omega=      9.8193 meV
+     lambda_tr(   1 )=       0.143651   gamma_tr=       0.010249 meV   omega=      9.8193 meV
+     lambda___(   2 )=       0.165723   gamma___=       0.013072 meV   omega=     10.3247 meV
+     lambda_tr(   2 )=       0.132719   gamma_tr=       0.010469 meV   omega=     10.3247 meV
+     lambda___(   3 )=       0.112997   gamma___=       0.014565 meV   omega=     13.1982 meV
+     lambda_tr(   3 )=       0.089699   gamma_tr=       0.011562 meV   omega=     13.1982 meV
+     lambda___( tot )=       0.425350
+     lambda_tr( tot )=       0.366070
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1857 out of     8000
+
+
+     ismear =     1 iq =      78 coord.:   0.50000  0.39167  0.60833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.135948   gamma___=       0.009549 meV   omega=      9.7426 meV
+     lambda_tr(   1 )=       0.133320   gamma_tr=       0.009364 meV   omega=      9.7426 meV
+     lambda___(   2 )=       0.137779   gamma___=       0.010615 meV   omega=     10.2037 meV
+     lambda_tr(   2 )=       0.139466   gamma_tr=       0.010745 meV   omega=     10.2037 meV
+     lambda___(   3 )=       0.094916   gamma___=       0.012395 meV   omega=     13.2845 meV
+     lambda_tr(   3 )=       0.088302   gamma_tr=       0.011532 meV   omega=     13.2845 meV
+     lambda___( tot )=       0.368643
+     lambda_tr( tot )=       0.361088
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1891 out of     8000
+
+
+     ismear =     1 iq =      79 coord.:   0.50000  0.40000  0.60000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.146589   gamma___=       0.010144 meV   omega=      9.6702 meV
+     lambda_tr(   1 )=       0.150210   gamma_tr=       0.010394 meV   omega=      9.6702 meV
+     lambda___(   2 )=       0.140214   gamma___=       0.010551 meV   omega=     10.0841 meV
+     lambda_tr(   2 )=       0.193469   gamma_tr=       0.014558 meV   omega=     10.0841 meV
+     lambda___(   3 )=       0.086310   gamma___=       0.011410 meV   omega=     13.3660 meV
+     lambda_tr(   3 )=       0.097398   gamma_tr=       0.012876 meV   omega=     13.3660 meV
+     lambda___( tot )=       0.373112
+     lambda_tr( tot )=       0.441077
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1912 out of     8000
+
+
+     ismear =     1 iq =      80 coord.:   0.50000  0.40833  0.59167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.123169   gamma___=       0.008404 meV   omega=      9.6024 meV
+     lambda_tr(   1 )=       0.137123   gamma_tr=       0.009356 meV   omega=      9.6024 meV
+     lambda___(   2 )=       0.141436   gamma___=       0.010397 meV   omega=      9.9671 meV
+     lambda_tr(   2 )=       0.188013   gamma_tr=       0.013821 meV   omega=      9.9671 meV
+     lambda___(   3 )=       0.085402   gamma___=       0.011419 meV   omega=     13.4423 meV
+     lambda_tr(   3 )=       0.100001   gamma_tr=       0.013371 meV   omega=     13.4423 meV
+     lambda___( tot )=       0.350007
+     lambda_tr( tot )=       0.425137
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1947 out of     8000
+
+
+     ismear =     1 iq =      81 coord.:   0.50000  0.41667  0.58333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.133497   gamma___=       0.008990 meV   omega=      9.5395 meV
+     lambda_tr(   1 )=       0.152632   gamma_tr=       0.010278 meV   omega=      9.5395 meV
+     lambda___(   2 )=       0.184443   gamma___=       0.013253 meV   omega=      9.8541 meV
+     lambda_tr(   2 )=       0.237904   gamma_tr=       0.017095 meV   omega=      9.8541 meV
+     lambda___(   3 )=       0.118171   gamma___=       0.015968 meV   omega=     13.5132 meV
+     lambda_tr(   3 )=       0.160889   gamma_tr=       0.021741 meV   omega=     13.5132 meV
+     lambda___( tot )=       0.436111
+     lambda_tr( tot )=       0.551426
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1992 out of     8000
+
+
+     ismear =     1 iq =      82 coord.:   0.50000  0.42500  0.57500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.109177   gamma___=       0.007263 meV   omega=      9.4816 meV
+     lambda_tr(   1 )=       0.113018   gamma_tr=       0.007519 meV   omega=      9.4816 meV
+     lambda___(   2 )=       0.145661   gamma___=       0.010239 meV   omega=      9.7466 meV
+     lambda_tr(   2 )=       0.158273   gamma_tr=       0.011126 meV   omega=      9.7466 meV
+     lambda___(   3 )=       0.087712   gamma___=       0.011967 meV   omega=     13.5784 meV
+     lambda_tr(   3 )=       0.100310   gamma_tr=       0.013686 meV   omega=     13.5784 meV
+     lambda___( tot )=       0.342549
+     lambda_tr( tot )=       0.371601
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2024 out of     8000
+
+
+     ismear =     1 iq =      83 coord.:   0.50000  0.43333  0.56667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.102164   gamma___=       0.006722 meV   omega=      9.4292 meV
+     lambda_tr(   1 )=       0.090850   gamma_tr=       0.005977 meV   omega=      9.4292 meV
+     lambda___(   2 )=       0.151135   gamma___=       0.010406 meV   omega=      9.6459 meV
+     lambda_tr(   2 )=       0.126608   gamma_tr=       0.008717 meV   omega=      9.6459 meV
+     lambda___(   3 )=       0.109364   gamma___=       0.015051 meV   omega=     13.6375 meV
+     lambda_tr(   3 )=       0.098210   gamma_tr=       0.013516 meV   omega=     13.6375 meV
+     lambda___( tot )=       0.362663
+     lambda_tr( tot )=       0.315669
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2047 out of     8000
+
+
+     ismear =     1 iq =      84 coord.:   0.50000  0.44167  0.55833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.083878   gamma___=       0.005464 meV   omega=      9.3822 meV
+     lambda_tr(   1 )=       0.071670   gamma_tr=       0.004668 meV   omega=      9.3822 meV
+     lambda___(   2 )=       0.126733   gamma___=       0.008559 meV   omega=      9.5533 meV
+     lambda_tr(   2 )=       0.098074   gamma_tr=       0.006624 meV   omega=      9.5533 meV
+     lambda___(   3 )=       0.092198   gamma___=       0.012787 meV   omega=     13.6903 meV
+     lambda_tr(   3 )=       0.080663   gamma_tr=       0.011187 meV   omega=     13.6903 meV
+     lambda___( tot )=       0.302809
+     lambda_tr( tot )=       0.250408
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2067 out of     8000
+
+
+     ismear =     1 iq =      85 coord.:   0.50000  0.45000  0.55000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.096585   gamma___=       0.006236 meV   omega=      9.3411 meV
+     lambda_tr(   1 )=       0.085206   gamma_tr=       0.005502 meV   omega=      9.3411 meV
+     lambda___(   2 )=       0.128107   gamma___=       0.008502 meV   omega=      9.4702 meV
+     lambda_tr(   2 )=       0.097502   gamma_tr=       0.006471 meV   omega=      9.4702 meV
+     lambda___(   3 )=       0.112321   gamma___=       0.015684 meV   omega=     13.7366 meV
+     lambda_tr(   3 )=       0.072494   gamma_tr=       0.010122 meV   omega=     13.7366 meV
+     lambda___( tot )=       0.337013
+     lambda_tr( tot )=       0.255203
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2062 out of     8000
+
+
+     ismear =     1 iq =      86 coord.:   0.50000  0.45833  0.54167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.072390   gamma___=       0.004639 meV   omega=      9.3060 meV
+     lambda_tr(   1 )=       0.067717   gamma_tr=       0.004340 meV   omega=      9.3060 meV
+     lambda___(   2 )=       0.102502   gamma___=       0.006699 meV   omega=      9.3976 meV
+     lambda_tr(   2 )=       0.084662   gamma_tr=       0.005533 meV   omega=      9.3976 meV
+     lambda___(   3 )=       0.122324   gamma___=       0.017179 meV   omega=     13.7761 meV
+     lambda_tr(   3 )=       0.084198   gamma_tr=       0.011824 meV   omega=     13.7761 meV
+     lambda___( tot )=       0.297215
+     lambda_tr( tot )=       0.236577
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2041 out of     8000
+
+
+     ismear =     1 iq =      87 coord.:   0.50000  0.46667  0.53333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.080701   gamma___=       0.005139 meV   omega=      9.2770 meV
+     lambda_tr(   1 )=       0.073624   gamma_tr=       0.004689 meV   omega=      9.2770 meV
+     lambda___(   2 )=       0.104412   gamma___=       0.006735 meV   omega=      9.3367 meV
+     lambda_tr(   2 )=       0.086606   gamma_tr=       0.005587 meV   omega=      9.3367 meV
+     lambda___(   3 )=       0.128863   gamma___=       0.018183 meV   omega=     13.8087 meV
+     lambda_tr(   3 )=       0.112389   gamma_tr=       0.015858 meV   omega=     13.8087 meV
+     lambda___( tot )=       0.313976
+     lambda_tr( tot )=       0.272618
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2031 out of     8000
+
+
+     ismear =     1 iq =      88 coord.:   0.50000  0.47500  0.52500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.076658   gamma___=       0.004858 meV   omega=      9.2543 meV
+     lambda_tr(   1 )=       0.074291   gamma_tr=       0.004708 meV   omega=      9.2543 meV
+     lambda___(   2 )=       0.097074   gamma___=       0.006197 meV   omega=      9.2884 meV
+     lambda_tr(   2 )=       0.083803   gamma_tr=       0.005350 meV   omega=      9.2884 meV
+     lambda___(   3 )=       0.123601   gamma___=       0.017505 meV   omega=     13.8342 meV
+     lambda_tr(   3 )=       0.102979   gamma_tr=       0.014584 meV   omega=     13.8342 meV
+     lambda___( tot )=       0.297333
+     lambda_tr( tot )=       0.261073
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2030 out of     8000
+
+
+     ismear =     1 iq =      89 coord.:   0.50000  0.48333  0.51667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.088527   gamma___=       0.005591 meV   omega=      9.2380 meV
+     lambda_tr(   1 )=       0.076344   gamma_tr=       0.004821 meV   omega=      9.2380 meV
+     lambda___(   2 )=       0.079445   gamma___=       0.005034 meV   omega=      9.2533 meV
+     lambda_tr(   2 )=       0.071146   gamma_tr=       0.004508 meV   omega=      9.2533 meV
+     lambda___(   3 )=       0.128208   gamma___=       0.018205 meV   omega=     13.8525 meV
+     lambda_tr(   3 )=       0.094977   gamma_tr=       0.013486 meV   omega=     13.8525 meV
+     lambda___( tot )=       0.296180
+     lambda_tr( tot )=       0.242467
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2027 out of     8000
+
+
+     ismear =     1 iq =      90 coord.:   0.50000  0.49167  0.50833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.056465   gamma___=       0.003558 meV   omega=      9.2282 meV
+     lambda_tr(   1 )=       0.053500   gamma_tr=       0.003371 meV   omega=      9.2282 meV
+     lambda___(   2 )=       0.056418   gamma___=       0.003558 meV   omega=      9.2320 meV
+     lambda_tr(   2 )=       0.053456   gamma_tr=       0.003371 meV   omega=      9.2320 meV
+     lambda___(   3 )=       0.110410   gamma___=       0.015703 meV   omega=     13.8635 meV
+     lambda_tr(   3 )=       0.088710   gamma_tr=       0.012617 meV   omega=     13.8635 meV
+     lambda___( tot )=       0.223293
+     lambda_tr( tot )=       0.195666
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1995 out of     8000
+
+
+     ismear =     1 iq =      91 coord.:   0.50000  0.50000  0.50000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.043191   gamma___=       0.002720 meV   omega=      9.2249 meV
+     lambda_tr(   1 )=       0.044787   gamma_tr=       0.002820 meV   omega=      9.2249 meV
+     lambda___(   2 )=       0.043191   gamma___=       0.002720 meV   omega=      9.2249 meV
+     lambda_tr(   2 )=       0.044787   gamma_tr=       0.002820 meV   omega=      9.2249 meV
+     lambda___(   3 )=       0.074068   gamma___=       0.010540 meV   omega=     13.8671 meV
+     lambda_tr(   3 )=       0.068781   gamma_tr=       0.009787 meV   omega=     13.8671 meV
+     lambda___( tot )=       0.160450
+     lambda_tr( tot )=       0.158356
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2036 out of     8000
+
+
+     ismear =     1 iq =      92 coord.:   0.49583  0.49583  0.50833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.051804   gamma___=       0.003264 meV   omega=      9.2274 meV
+     lambda_tr(   1 )=       0.049933   gamma_tr=       0.003146 meV   omega=      9.2274 meV
+     lambda___(   2 )=       0.051771   gamma___=       0.003264 meV   omega=      9.2302 meV
+     lambda_tr(   2 )=       0.049902   gamma_tr=       0.003146 meV   omega=      9.2302 meV
+     lambda___(   3 )=       0.103490   gamma___=       0.014721 meV   omega=     13.8644 meV
+     lambda_tr(   3 )=       0.084007   gamma_tr=       0.011949 meV   omega=     13.8644 meV
+     lambda___( tot )=       0.207065
+     lambda_tr( tot )=       0.183842
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2015 out of     8000
+
+
+     ismear =     1 iq =      93 coord.:   0.49167  0.49167  0.51667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.082183   gamma___=       0.005186 meV   omega=      9.2347 meV
+     lambda_tr(   1 )=       0.073153   gamma_tr=       0.004616 meV   omega=      9.2347 meV
+     lambda___(   2 )=       0.081978   gamma___=       0.005186 meV   omega=      9.2462 meV
+     lambda_tr(   2 )=       0.072970   gamma_tr=       0.004616 meV   omega=      9.2462 meV
+     lambda___(   3 )=       0.142031   gamma___=       0.020179 meV   omega=     13.8561 meV
+     lambda_tr(   3 )=       0.103633   gamma_tr=       0.014723 meV   omega=     13.8561 meV
+     lambda___( tot )=       0.306192
+     lambda_tr( tot )=       0.249756
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2008 out of     8000
+
+
+     ismear =     1 iq =      94 coord.:   0.48750  0.48750  0.52500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.087015   gamma___=       0.005506 meV   omega=      9.2469 meV
+     lambda_tr(   1 )=       0.076784   gamma_tr=       0.004858 meV   omega=      9.2469 meV
+     lambda___(   2 )=       0.101027   gamma___=       0.006428 meV   omega=      9.2727 meV
+     lambda_tr(   2 )=       0.097823   gamma_tr=       0.006224 meV   omega=      9.2727 meV
+     lambda___(   3 )=       0.134563   gamma___=       0.019080 meV   omega=     13.8424 meV
+     lambda_tr(   3 )=       0.099187   gamma_tr=       0.014064 meV   omega=     13.8424 meV
+     lambda___( tot )=       0.322605
+     lambda_tr( tot )=       0.273794
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2007 out of     8000
+
+
+     ismear =     1 iq =      95 coord.:   0.48333  0.48333  0.53333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.083135   gamma___=       0.005279 meV   omega=      9.2637 meV
+     lambda_tr(   1 )=       0.079135   gamma_tr=       0.005025 meV   omega=      9.2637 meV
+     lambda___(   2 )=       0.086689   gamma___=       0.005560 meV   omega=      9.3095 meV
+     lambda_tr(   2 )=       0.085503   gamma_tr=       0.005484 meV   omega=      9.3095 meV
+     lambda___(   3 )=       0.104684   gamma___=       0.014802 meV   omega=     13.8232 meV
+     lambda_tr(   3 )=       0.087671   gamma_tr=       0.012397 meV   omega=     13.8232 meV
+     lambda___( tot )=       0.274508
+     lambda_tr( tot )=       0.252310
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2066 out of     8000
+
+
+     ismear =     1 iq =      96 coord.:   0.47917  0.47917  0.54167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.085278   gamma___=       0.005440 meV   omega=      9.2851 meV
+     lambda_tr(   1 )=       0.078042   gamma_tr=       0.004979 meV   omega=      9.2851 meV
+     lambda___(   2 )=       0.101818   gamma___=       0.006596 meV   omega=      9.3562 meV
+     lambda_tr(   2 )=       0.091309   gamma_tr=       0.005915 meV   omega=      9.3562 meV
+     lambda___(   3 )=       0.110560   gamma___=       0.015578 meV   omega=     13.7987 meV
+     lambda_tr(   3 )=       0.083706   gamma_tr=       0.011794 meV   omega=     13.7987 meV
+     lambda___( tot )=       0.297656
+     lambda_tr( tot )=       0.253057
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2082 out of     8000
+
+
+     ismear =     1 iq =      97 coord.:   0.47500  0.47500  0.55000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.104479   gamma___=       0.006702 meV   omega=      9.3108 meV
+     lambda_tr(   1 )=       0.093233   gamma_tr=       0.005981 meV   omega=      9.3108 meV
+     lambda___(   2 )=       0.110520   gamma___=       0.007246 meV   omega=      9.4125 meV
+     lambda_tr(   2 )=       0.106514   gamma_tr=       0.006983 meV   omega=      9.4125 meV
+     lambda___(   3 )=       0.124726   gamma___=       0.017498 meV   omega=     13.7689 meV
+     lambda_tr(   3 )=       0.100196   gamma_tr=       0.014056 meV   omega=     13.7689 meV
+     lambda___( tot )=       0.339725
+     lambda_tr( tot )=       0.299943
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2067 out of     8000
+
+
+     ismear =     1 iq =      98 coord.:   0.47083  0.47083  0.55833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.099903   gamma___=       0.006450 meV   omega=      9.3406 meV
+     lambda_tr(   1 )=       0.091749   gamma_tr=       0.005924 meV   omega=      9.3406 meV
+     lambda___(   2 )=       0.115820   gamma___=       0.007699 meV   omega=      9.4779 meV
+     lambda_tr(   2 )=       0.115766   gamma_tr=       0.007695 meV   omega=      9.4779 meV
+     lambda___(   3 )=       0.125117   gamma___=       0.017463 meV   omega=     13.7339 meV
+     lambda_tr(   3 )=       0.122416   gamma_tr=       0.017086 meV   omega=     13.7339 meV
+     lambda___( tot )=       0.340840
+     lambda_tr( tot )=       0.329931
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2100 out of     8000
+
+
+     ismear =     1 iq =      99 coord.:   0.46667  0.46667  0.56667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.093775   gamma___=       0.006098 meV   omega=      9.3742 meV
+     lambda_tr(   1 )=       0.088599   gamma_tr=       0.005761 meV   omega=      9.3742 meV
+     lambda___(   2 )=       0.133313   gamma___=       0.009001 meV   omega=      9.5518 meV
+     lambda_tr(   2 )=       0.120651   gamma_tr=       0.008146 meV   omega=      9.5518 meV
+     lambda___(   3 )=       0.114169   gamma___=       0.015843 meV   omega=     13.6939 meV
+     lambda_tr(   3 )=       0.112903   gamma_tr=       0.015667 meV   omega=     13.6939 meV
+     lambda___( tot )=       0.341258
+     lambda_tr( tot )=       0.322153
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2091 out of     8000
+
+
+     ismear =     1 iq =     100 coord.:   0.46250  0.46250  0.57500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070880   gamma___=       0.004646 meV   omega=      9.4113 meV
+     lambda_tr(   1 )=       0.072654   gamma_tr=       0.004762 meV   omega=      9.4113 meV
+     lambda___(   2 )=       0.134458   gamma___=       0.009234 meV   omega=      9.6337 meV
+     lambda_tr(   2 )=       0.136993   gamma_tr=       0.009408 meV   omega=      9.6337 meV
+     lambda___(   3 )=       0.115829   gamma___=       0.015968 meV   omega=     13.6489 meV
+     lambda_tr(   3 )=       0.125166   gamma_tr=       0.017255 meV   omega=     13.6489 meV
+     lambda___( tot )=       0.321167
+     lambda_tr( tot )=       0.334813
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2041 out of     8000
+
+
+     ismear =     1 iq =     101 coord.:   0.45833  0.45833  0.58333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.064455   gamma___=       0.004261 meV   omega=      9.4516 meV
+     lambda_tr(   1 )=       0.066143   gamma_tr=       0.004372 meV   omega=      9.4516 meV
+     lambda___(   2 )=       0.160600   gamma___=       0.011235 meV   omega=      9.7229 meV
+     lambda_tr(   2 )=       0.172697   gamma_tr=       0.012081 meV   omega=      9.7229 meV
+     lambda___(   3 )=       0.141986   gamma___=       0.019431 meV   omega=     13.5992 meV
+     lambda_tr(   3 )=       0.142373   gamma_tr=       0.019484 meV   omega=     13.5992 meV
+     lambda___( tot )=       0.367041
+     lambda_tr( tot )=       0.381213
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2037 out of     8000
+
+
+     ismear =     1 iq =     102 coord.:   0.45417  0.45417  0.59167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.083059   gamma___=       0.005541 meV   omega=      9.4946 meV
+     lambda_tr(   1 )=       0.075437   gamma_tr=       0.005032 meV   omega=      9.4946 meV
+     lambda___(   2 )=       0.152544   gamma___=       0.010883 meV   omega=      9.8188 meV
+     lambda_tr(   2 )=       0.190359   gamma_tr=       0.013581 meV   omega=      9.8188 meV
+     lambda___(   3 )=       0.121356   gamma___=       0.016476 meV   omega=     13.5450 meV
+     lambda_tr(   3 )=       0.112256   gamma_tr=       0.015240 meV   omega=     13.5450 meV
+     lambda___( tot )=       0.356959
+     lambda_tr( tot )=       0.378052
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2004 out of     8000
+
+
+     ismear =     1 iq =     103 coord.:   0.45000  0.45000  0.60000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.118215   gamma___=       0.007962 meV   omega=      9.5401 meV
+     lambda_tr(   1 )=       0.100299   gamma_tr=       0.006755 meV   omega=      9.5401 meV
+     lambda___(   2 )=       0.161487   gamma___=       0.011761 meV   omega=      9.9207 meV
+     lambda_tr(   2 )=       0.220109   gamma_tr=       0.016030 meV   omega=      9.9207 meV
+     lambda___(   3 )=       0.106221   gamma___=       0.014296 meV   omega=     13.4863 meV
+     lambda_tr(   3 )=       0.115099   gamma_tr=       0.015491 meV   omega=     13.4863 meV
+     lambda___( tot )=       0.385924
+     lambda_tr( tot )=       0.435506
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1968 out of     8000
+
+
+     ismear =     1 iq =     104 coord.:   0.44583  0.44583  0.60833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.127637   gamma___=       0.008682 meV   omega=      9.5877 meV
+     lambda_tr(   1 )=       0.115197   gamma_tr=       0.007836 meV   omega=      9.5877 meV
+     lambda___(   2 )=       0.152019   gamma___=       0.011312 meV   omega=     10.0278 meV
+     lambda_tr(   2 )=       0.184673   gamma_tr=       0.013742 meV   omega=     10.0278 meV
+     lambda___(   3 )=       0.087309   gamma___=       0.011642 meV   omega=     13.4235 meV
+     lambda_tr(   3 )=       0.099861   gamma_tr=       0.013315 meV   omega=     13.4235 meV
+     lambda___( tot )=       0.366965
+     lambda_tr( tot )=       0.399730
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1948 out of     8000
+
+
+     ismear =     1 iq =     105 coord.:   0.44167  0.44167  0.61667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.111704   gamma___=       0.007676 meV   omega=      9.6368 meV
+     lambda_tr(   1 )=       0.101037   gamma_tr=       0.006943 meV   omega=      9.6368 meV
+     lambda___(   2 )=       0.139240   gamma___=       0.010593 meV   omega=     10.1395 meV
+     lambda_tr(   2 )=       0.166043   gamma_tr=       0.012632 meV   omega=     10.1395 meV
+     lambda___(   3 )=       0.100597   gamma___=       0.013280 meV   omega=     13.3567 meV
+     lambda_tr(   3 )=       0.113519   gamma_tr=       0.014986 meV   omega=     13.3567 meV
+     lambda___( tot )=       0.351541
+     lambda_tr( tot )=       0.380599
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1900 out of     8000
+
+
+     ismear =     1 iq =     106 coord.:   0.43750  0.43750  0.62500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.109206   gamma___=       0.007584 meV   omega=      9.6873 meV
+     lambda_tr(   1 )=       0.089582   gamma_tr=       0.006221 meV   omega=      9.6873 meV
+     lambda___(   2 )=       0.103715   gamma___=       0.008071 meV   omega=     10.2551 meV
+     lambda_tr(   2 )=       0.107921   gamma_tr=       0.008399 meV   omega=     10.2551 meV
+     lambda___(   3 )=       0.101413   gamma___=       0.013247 meV   omega=     13.2862 meV
+     lambda_tr(   3 )=       0.089371   gamma_tr=       0.011674 meV   omega=     13.2862 meV
+     lambda___( tot )=       0.314334
+     lambda_tr( tot )=       0.286873
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1844 out of     8000
+
+
+     ismear =     1 iq =     107 coord.:   0.43333  0.43333  0.63333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.107767   gamma___=       0.007563 meV   omega=      9.7385 meV
+     lambda_tr(   1 )=       0.091863   gamma_tr=       0.006447 meV   omega=      9.7385 meV
+     lambda___(   2 )=       0.098163   gamma___=       0.007817 meV   omega=     10.3738 meV
+     lambda_tr(   2 )=       0.097123   gamma_tr=       0.007734 meV   omega=     10.3738 meV
+     lambda___(   3 )=       0.093706   gamma___=       0.012104 meV   omega=     13.2121 meV
+     lambda_tr(   3 )=       0.068671   gamma_tr=       0.008870 meV   omega=     13.2121 meV
+     lambda___( tot )=       0.299636
+     lambda_tr( tot )=       0.257658
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1835 out of     8000
+
+
+     ismear =     1 iq =     108 coord.:   0.42917  0.42917  0.64167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.103553   gamma___=       0.007345 meV   omega=      9.7903 meV
+     lambda_tr(   1 )=       0.099336   gamma_tr=       0.007046 meV   omega=      9.7903 meV
+     lambda___(   2 )=       0.130496   gamma___=       0.010636 meV   omega=     10.4949 meV
+     lambda_tr(   2 )=       0.132826   gamma_tr=       0.010826 meV   omega=     10.4949 meV
+     lambda___(   3 )=       0.108685   gamma___=       0.013875 meV   omega=     13.1349 meV
+     lambda_tr(   3 )=       0.087116   gamma_tr=       0.011122 meV   omega=     13.1349 meV
+     lambda___( tot )=       0.342733
+     lambda_tr( tot )=       0.319277
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1817 out of     8000
+
+
+     ismear =     1 iq =     109 coord.:   0.42500  0.42500  0.65000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.092322   gamma___=       0.006618 meV   omega=      9.8420 meV
+     lambda_tr(   1 )=       0.094517   gamma_tr=       0.006775 meV   omega=      9.8420 meV
+     lambda___(   2 )=       0.148202   gamma___=       0.012364 meV   omega=     10.6178 meV
+     lambda_tr(   2 )=       0.148089   gamma_tr=       0.012354 meV   omega=     10.6178 meV
+     lambda___(   3 )=       0.113960   gamma___=       0.014372 meV   omega=     13.0546 meV
+     lambda_tr(   3 )=       0.097851   gamma_tr=       0.012340 meV   omega=     13.0546 meV
+     lambda___( tot )=       0.354484
+     lambda_tr( tot )=       0.340457
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1792 out of     8000
+
+
+     ismear =     1 iq =     110 coord.:   0.42083  0.42083  0.65833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.088734   gamma___=       0.006427 meV   omega=      9.8935 meV
+     lambda_tr(   1 )=       0.090372   gamma_tr=       0.006546 meV   omega=      9.8935 meV
+     lambda___(   2 )=       0.122208   gamma___=       0.010434 meV   omega=     10.7416 meV
+     lambda_tr(   2 )=       0.111473   gamma_tr=       0.009518 meV   omega=     10.7416 meV
+     lambda___(   3 )=       0.104216   gamma___=       0.012976 meV   omega=     12.9716 meV
+     lambda_tr(   3 )=       0.089121   gamma_tr=       0.011097 meV   omega=     12.9716 meV
+     lambda___( tot )=       0.315158
+     lambda_tr( tot )=       0.290966
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1783 out of     8000
+
+
+     ismear =     1 iq =     111 coord.:   0.41667  0.41667  0.66667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.079513   gamma___=       0.005819 meV   omega=      9.9443 meV
+     lambda_tr(   1 )=       0.089299   gamma_tr=       0.006535 meV   omega=      9.9443 meV
+     lambda___(   2 )=       0.102927   gamma___=       0.008993 meV   omega=     10.8659 meV
+     lambda_tr(   2 )=       0.094465   gamma_tr=       0.008253 meV   omega=     10.8659 meV
+     lambda___(   3 )=       0.108680   gamma___=       0.013354 meV   omega=     12.8861 meV
+     lambda_tr(   3 )=       0.091455   gamma_tr=       0.011238 meV   omega=     12.8861 meV
+     lambda___( tot )=       0.291120
+     lambda_tr( tot )=       0.275218
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1738 out of     8000
+
+
+     ismear =     1 iq =     112 coord.:   0.41250  0.41250  0.67500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.086655   gamma___=       0.006405 meV   omega=      9.9940 meV
+     lambda_tr(   1 )=       0.099164   gamma_tr=       0.007329 meV   omega=      9.9940 meV
+     lambda___(   2 )=       0.114851   gamma___=       0.010265 meV   omega=     10.9899 meV
+     lambda_tr(   2 )=       0.099887   gamma_tr=       0.008927 meV   omega=     10.9899 meV
+     lambda___(   3 )=       0.166505   gamma___=       0.020182 meV   omega=     12.7983 meV
+     lambda_tr(   3 )=       0.115371   gamma_tr=       0.013984 meV   omega=     12.7983 meV
+     lambda___( tot )=       0.368010
+     lambda_tr( tot )=       0.314422
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1741 out of     8000
+
+
+     ismear =     1 iq =     113 coord.:   0.40833  0.40833  0.68333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.080713   gamma___=       0.006023 meV   omega=     10.0423 meV
+     lambda_tr(   1 )=       0.086489   gamma_tr=       0.006454 meV   omega=     10.0423 meV
+     lambda___(   2 )=       0.109161   gamma___=       0.009976 meV   omega=     11.1131 meV
+     lambda_tr(   2 )=       0.085645   gamma_tr=       0.007827 meV   omega=     11.1131 meV
+     lambda___(   3 )=       0.215287   gamma___=       0.025730 meV   omega=     12.7086 meV
+     lambda_tr(   3 )=       0.116696   gamma_tr=       0.013947 meV   omega=     12.7086 meV
+     lambda___( tot )=       0.405161
+     lambda_tr( tot )=       0.288830
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1768 out of     8000
+
+
+     ismear =     1 iq =     114 coord.:   0.40417  0.40417  0.69167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.066055   gamma___=       0.004975 meV   omega=     10.0888 meV
+     lambda_tr(   1 )=       0.065291   gamma_tr=       0.004918 meV   omega=     10.0888 meV
+     lambda___(   2 )=       0.094621   gamma___=       0.008838 meV   omega=     11.2347 meV
+     lambda_tr(   2 )=       0.075867   gamma_tr=       0.007086 meV   omega=     11.2347 meV
+     lambda___(   3 )=       0.155968   gamma___=       0.018373 meV   omega=     12.6172 meV
+     lambda_tr(   3 )=       0.087433   gamma_tr=       0.010300 meV   omega=     12.6172 meV
+     lambda___( tot )=       0.316643
+     lambda_tr( tot )=       0.228591
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1762 out of     8000
+
+
+     ismear =     1 iq =     115 coord.:   0.40000  0.40000  0.70000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.069739   gamma___=       0.005299 meV   omega=     10.1332 meV
+     lambda_tr(   1 )=       0.060077   gamma_tr=       0.004565 meV   omega=     10.1332 meV
+     lambda___(   2 )=       0.091987   gamma___=       0.008775 meV   omega=     11.3542 meV
+     lambda_tr(   2 )=       0.080804   gamma_tr=       0.007709 meV   omega=     11.3542 meV
+     lambda___(   3 )=       0.103313   gamma___=       0.011992 meV   omega=     12.5243 meV
+     lambda_tr(   3 )=       0.074157   gamma_tr=       0.008608 meV   omega=     12.5243 meV
+     lambda___( tot )=       0.265039
+     lambda_tr( tot )=       0.215039
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1757 out of     8000
+
+
+     ismear =     1 iq =     116 coord.:   0.39583  0.39583  0.70833 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.064892   gamma___=       0.004972 meV   omega=     10.1751 meV
+     lambda_tr(   1 )=       0.052197   gamma_tr=       0.003999 meV   omega=     10.1751 meV
+     lambda___(   2 )=       0.092597   gamma___=       0.009016 meV   omega=     11.4709 meV
+     lambda_tr(   2 )=       0.084408   gamma_tr=       0.008219 meV   omega=     11.4709 meV
+     lambda___(   3 )=       0.095652   gamma___=       0.010936 meV   omega=     12.4302 meV
+     lambda_tr(   3 )=       0.076820   gamma_tr=       0.008783 meV   omega=     12.4302 meV
+     lambda___( tot )=       0.253141
+     lambda_tr( tot )=       0.213425
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1768 out of     8000
+
+
+     ismear =     1 iq =     117 coord.:   0.39167  0.39167  0.71667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.061956   gamma___=       0.004783 meV   omega=     10.2144 meV
+     lambda_tr(   1 )=       0.044220   gamma_tr=       0.003414 meV   omega=     10.2144 meV
+     lambda___(   2 )=       0.111539   gamma___=       0.011076 meV   omega=     11.5843 meV
+     lambda_tr(   2 )=       0.095165   gamma_tr=       0.009450 meV   omega=     11.5843 meV
+     lambda___(   3 )=       0.172121   gamma___=       0.019380 meV   omega=     12.3352 meV
+     lambda_tr(   3 )=       0.095180   gamma_tr=       0.010717 meV   omega=     12.3352 meV
+     lambda___( tot )=       0.345616
+     lambda_tr( tot )=       0.234565
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1789 out of     8000
+
+
+     ismear =     1 iq =     118 coord.:   0.38750  0.38750  0.72500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.053007   gamma___=       0.004121 meV   omega=     10.2505 meV
+     lambda_tr(   1 )=       0.033278   gamma_tr=       0.002587 meV   omega=     10.2505 meV
+     lambda___(   2 )=       0.134046   gamma___=       0.013564 meV   omega=     11.6937 meV
+     lambda_tr(   2 )=       0.115597   gamma_tr=       0.011697 meV   omega=     11.6937 meV
+     lambda___(   3 )=       0.205247   gamma___=       0.022753 meV   omega=     12.2396 meV
+     lambda_tr(   3 )=       0.097589   gamma_tr=       0.010818 meV   omega=     12.2396 meV
+     lambda___( tot )=       0.392300
+     lambda_tr( tot )=       0.246464
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1816 out of     8000
+
+
+     ismear =     1 iq =     119 coord.:   0.38333  0.38333  0.73333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.033155   gamma___=       0.002594 meV   omega=     10.2833 meV
+     lambda_tr(   1 )=       0.025690   gamma_tr=       0.002010 meV   omega=     10.2833 meV
+     lambda___(   2 )=       0.120950   gamma___=       0.012458 meV   omega=     11.7978 meV
+     lambda_tr(   2 )=       0.102362   gamma_tr=       0.010543 meV   omega=     11.7978 meV
+     lambda___(   3 )=       0.158124   gamma___=       0.017257 meV   omega=     12.1441 meV
+     lambda_tr(   3 )=       0.080874   gamma_tr=       0.008826 meV   omega=     12.1441 meV
+     lambda___( tot )=       0.312229
+     lambda_tr( tot )=       0.208926
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1822 out of     8000
+
+
+     ismear =     1 iq =     120 coord.:   0.37917  0.37917  0.74167 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.038741   gamma___=       0.003049 meV   omega=     10.3124 meV
+     lambda_tr(   1 )=       0.035899   gamma_tr=       0.002825 meV   omega=     10.3124 meV
+     lambda___(   2 )=       0.116624   gamma___=       0.012206 meV   omega=     11.8926 meV
+     lambda_tr(   2 )=       0.084207   gamma_tr=       0.008813 meV   omega=     11.8926 meV
+     lambda___(   3 )=       0.115770   gamma___=       0.012444 meV   omega=     12.0525 meV
+     lambda_tr(   3 )=       0.083354   gamma_tr=       0.008960 meV   omega=     12.0525 meV
+     lambda___( tot )=       0.271135
+     lambda_tr( tot )=       0.203459
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1849 out of     8000
+
+
+     ismear =     1 iq =     121 coord.:   0.37500  0.37500  0.75000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.049558   gamma___=       0.003919 meV   omega=     10.3375 meV
+     lambda_tr(   1 )=       0.048112   gamma_tr=       0.003805 meV   omega=     10.3375 meV
+     lambda___(   2 )=       0.133755   gamma___=       0.014067 meV   omega=     11.9215 meV
+     lambda_tr(   2 )=       0.033638   gamma_tr=       0.003538 meV   omega=     11.9215 meV
+     lambda___(   3 )=       0.137445   gamma___=       0.014697 meV   omega=     12.0210 meV
+     lambda_tr(   3 )=       0.159046   gamma_tr=       0.017007 meV   omega=     12.0210 meV
+     lambda___( tot )=       0.320758
+     lambda_tr( tot )=       0.240796
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1854 out of     8000
+
+
+     ismear =     1 iq =     122 coord.:   0.36250  0.36250  0.72500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.037602   gamma___=       0.002932 meV   omega=     10.2658 meV
+     lambda_tr(   1 )=       0.035370   gamma_tr=       0.002758 meV   omega=     10.2658 meV
+     lambda___(   2 )=       0.114491   gamma___=       0.011917 meV   omega=     11.8598 meV
+     lambda_tr(   2 )=       0.135476   gamma_tr=       0.014101 meV   omega=     11.8598 meV
+     lambda___(   3 )=       0.129436   gamma___=       0.014002 meV   omega=     12.0908 meV
+     lambda_tr(   3 )=       0.033145   gamma_tr=       0.003585 meV   omega=     12.0908 meV
+     lambda___( tot )=       0.281528
+     lambda_tr( tot )=       0.203990
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1841 out of     8000
+
+
+     ismear =     1 iq =     123 coord.:   0.35000  0.35000  0.70000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070682   gamma___=       0.005430 meV   omega=     10.1889 meV
+     lambda_tr(   1 )=       0.055961   gamma_tr=       0.004299 meV   omega=     10.1889 meV
+     lambda___(   2 )=       0.124713   gamma___=       0.012610 meV   omega=     11.6891 meV
+     lambda_tr(   2 )=       0.130617   gamma_tr=       0.013207 meV   omega=     11.6891 meV
+     lambda___(   3 )=       0.228311   gamma___=       0.025347 meV   omega=     12.2486 meV
+     lambda_tr(   3 )=       0.102333   gamma_tr=       0.011361 meV   omega=     12.2486 meV
+     lambda___( tot )=       0.423706
+     lambda_tr( tot )=       0.288911
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1836 out of     8000
+
+
+     ismear =     1 iq =     124 coord.:   0.33750  0.33750  0.67500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.106171   gamma___=       0.008024 meV   omega=     10.1061 meV
+     lambda_tr(   1 )=       0.080173   gamma_tr=       0.006059 meV   omega=     10.1061 meV
+     lambda___(   2 )=       0.137967   gamma___=       0.013524 meV   omega=     11.5094 meV
+     lambda_tr(   2 )=       0.134512   gamma_tr=       0.013185 meV   omega=     11.5094 meV
+     lambda___(   3 )=       0.259764   gamma___=       0.029507 meV   omega=     12.3897 meV
+     lambda_tr(   3 )=       0.097444   gamma_tr=       0.011069 meV   omega=     12.3897 meV
+     lambda___( tot )=       0.503902
+     lambda_tr( tot )=       0.312129
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1812 out of     8000
+
+
+     ismear =     1 iq =     125 coord.:   0.32500  0.32500  0.65000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.067248   gamma___=       0.004993 meV   omega=     10.0164 meV
+     lambda_tr(   1 )=       0.057828   gamma_tr=       0.004293 meV   omega=     10.0164 meV
+     lambda___(   2 )=       0.105525   gamma___=       0.010007 meV   omega=     11.3206 meV
+     lambda_tr(   2 )=       0.117040   gamma_tr=       0.011099 meV   omega=     11.3206 meV
+     lambda___(   3 )=       0.207995   gamma___=       0.024083 meV   omega=     12.5087 meV
+     lambda_tr(   3 )=       0.107714   gamma_tr=       0.012472 meV   omega=     12.5087 meV
+     lambda___( tot )=       0.380769
+     lambda_tr( tot )=       0.282582
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1812 out of     8000
+
+
+     ismear =     1 iq =     126 coord.:   0.31250  0.31250  0.62500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.029562   gamma___=       0.002152 meV   omega=      9.9182 meV
+     lambda_tr(   1 )=       0.030295   gamma_tr=       0.002205 meV   omega=      9.9182 meV
+     lambda___(   2 )=       0.162622   gamma___=       0.014888 meV   omega=     11.1227 meV
+     lambda_tr(   2 )=       0.092444   gamma_tr=       0.008463 meV   omega=     11.1227 meV
+     lambda___(   3 )=       0.205020   gamma___=       0.024088 meV   omega=     12.6007 meV
+     lambda_tr(   3 )=       0.041458   gamma_tr=       0.004871 meV   omega=     12.6007 meV
+     lambda___( tot )=       0.397205
+     lambda_tr( tot )=       0.164197
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1775 out of     8000
+
+
+     ismear =     1 iq =     127 coord.:   0.30000  0.30000  0.60000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.059301   gamma___=       0.004223 meV   omega=      9.8098 meV
+     lambda_tr(   1 )=       0.051075   gamma_tr=       0.003637 meV   omega=      9.8098 meV
+     lambda___(   2 )=       0.096062   gamma___=       0.008469 meV   omega=     10.9149 meV
+     lambda_tr(   2 )=       0.076396   gamma_tr=       0.006735 meV   omega=     10.9149 meV
+     lambda___(   3 )=       0.243436   gamma___=       0.028876 meV   omega=     12.6609 meV
+     lambda_tr(   3 )=       0.072208   gamma_tr=       0.008565 meV   omega=     12.6609 meV
+     lambda___( tot )=       0.398798
+     lambda_tr( tot )=       0.199679
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1750 out of     8000
+
+
+     ismear =     1 iq =     128 coord.:   0.28750  0.28750  0.57500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.112735   gamma___=       0.007832 meV   omega=      9.6892 meV
+     lambda_tr(   1 )=       0.078816   gamma_tr=       0.005475 meV   omega=      9.6892 meV
+     lambda___(   2 )=       0.135502   gamma___=       0.011472 meV   omega=     10.6964 meV
+     lambda_tr(   2 )=       0.090234   gamma_tr=       0.007640 meV   omega=     10.6964 meV
+     lambda___(   3 )=       0.287954   gamma___=       0.034286 meV   omega=     12.6849 meV
+     lambda_tr(   3 )=       0.090276   gamma_tr=       0.010749 meV   omega=     12.6849 meV
+     lambda___( tot )=       0.536191
+     lambda_tr( tot )=       0.259326
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1691 out of     8000
+
+
+     ismear =     1 iq =     129 coord.:   0.27500  0.27500  0.55000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070972   gamma___=       0.004794 meV   omega=      9.5541 meV
+     lambda_tr(   1 )=       0.060291   gamma_tr=       0.004072 meV   omega=      9.5541 meV
+     lambda___(   2 )=       0.100909   gamma___=       0.008179 meV   omega=     10.4659 meV
+     lambda_tr(   2 )=       0.066033   gamma_tr=       0.005352 meV   omega=     10.4659 meV
+     lambda___(   3 )=       0.341645   gamma___=       0.040575 meV   omega=     12.6686 meV
+     lambda_tr(   3 )=       0.057316   gamma_tr=       0.006807 meV   omega=     12.6686 meV
+     lambda___( tot )=       0.513526
+     lambda_tr( tot )=       0.183640
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1691 out of     8000
+
+
+     ismear =     1 iq =     130 coord.:   0.26250  0.26250  0.52500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.068317   gamma___=       0.004469 meV   omega=      9.4019 meV
+     lambda_tr(   1 )=       0.056152   gamma_tr=       0.003673 meV   omega=      9.4019 meV
+     lambda___(   2 )=       0.131075   gamma___=       0.010134 meV   omega=     10.2217 meV
+     lambda_tr(   2 )=       0.113466   gamma_tr=       0.008773 meV   omega=     10.2217 meV
+     lambda___(   3 )=       0.450602   gamma___=       0.053007 meV   omega=     12.6083 meV
+     lambda_tr(   3 )=       0.102336   gamma_tr=       0.012038 meV   omega=     12.6083 meV
+     lambda___( tot )=       0.649994
+     lambda_tr( tot )=       0.271955
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1661 out of     8000
+
+
+     ismear =     1 iq =     131 coord.:   0.25000  0.25000  0.50000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.067454   gamma___=       0.004253 meV   omega=      9.2302 meV
+     lambda_tr(   1 )=       0.052316   gamma_tr=       0.003298 meV   omega=      9.2302 meV
+     lambda___(   2 )=       0.104584   gamma___=       0.007681 meV   omega=      9.9622 meV
+     lambda_tr(   2 )=       0.084220   gamma_tr=       0.006185 meV   omega=      9.9622 meV
+     lambda___(   3 )=       0.427196   gamma___=       0.049400 meV   omega=     12.5008 meV
+     lambda_tr(   3 )=       0.098562   gamma_tr=       0.011397 meV   omega=     12.5008 meV
+     lambda___( tot )=       0.599234
+     lambda_tr( tot )=       0.235099
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1694 out of     8000
+
+
+     ismear =     1 iq =     132 coord.:   0.23750  0.23750  0.47500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.050400   gamma___=       0.003045 meV   omega=      9.0364 meV
+     lambda_tr(   1 )=       0.039134   gamma_tr=       0.002365 meV   omega=      9.0364 meV
+     lambda___(   2 )=       0.064079   gamma___=       0.004448 meV   omega=      9.6855 meV
+     lambda_tr(   2 )=       0.048667   gamma_tr=       0.003378 meV   omega=      9.6855 meV
+     lambda___(   3 )=       0.273514   gamma___=       0.030836 meV   omega=     12.3432 meV
+     lambda_tr(   3 )=       0.070703   gamma_tr=       0.007971 meV   omega=     12.3432 meV
+     lambda___( tot )=       0.387992
+     lambda_tr( tot )=       0.158504
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1693 out of     8000
+
+
+     ismear =     1 iq =     133 coord.:   0.22500  0.22500  0.45000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.063970   gamma___=       0.003681 meV   omega=      8.8182 meV
+     lambda_tr(   1 )=       0.054803   gamma_tr=       0.003153 meV   omega=      8.8182 meV
+     lambda___(   2 )=       0.083352   gamma___=       0.005438 meV   omega=      9.3895 meV
+     lambda_tr(   2 )=       0.089110   gamma_tr=       0.005814 meV   omega=      9.3895 meV
+     lambda___(   3 )=       0.246249   gamma___=       0.026825 meV   omega=     12.1331 meV
+     lambda_tr(   3 )=       0.200944   gamma_tr=       0.021890 meV   omega=     12.1331 meV
+     lambda___( tot )=       0.393571
+     lambda_tr( tot )=       0.344856
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1749 out of     8000
+
+
+     ismear =     1 iq =     134 coord.:   0.21250  0.21250  0.42500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.070927   gamma___=       0.003858 meV   omega=      8.5731 meV
+     lambda_tr(   1 )=       0.058555   gamma_tr=       0.003185 meV   omega=      8.5731 meV
+     lambda___(   2 )=       0.137127   gamma___=       0.008352 meV   omega=      9.0725 meV
+     lambda_tr(   2 )=       0.116727   gamma_tr=       0.007110 meV   omega=      9.0725 meV
+     lambda___(   3 )=       0.202721   gamma___=       0.021132 meV   omega=     11.8689 meV
+     lambda_tr(   3 )=       0.193653   gamma_tr=       0.020187 meV   omega=     11.8689 meV
+     lambda___( tot )=       0.410775
+     lambda_tr( tot )=       0.368935
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1735 out of     8000
+
+
+     ismear =     1 iq =     135 coord.:   0.20000  0.20000  0.40000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.054428   gamma___=       0.002774 meV   omega=      8.2994 meV
+     lambda_tr(   1 )=       0.050001   gamma_tr=       0.002549 meV   omega=      8.2994 meV
+     lambda___(   2 )=       0.078709   gamma___=       0.004441 meV   omega=      8.7325 meV
+     lambda_tr(   2 )=       0.043037   gamma_tr=       0.002429 meV   omega=      8.7325 meV
+     lambda___(   3 )=       0.325740   gamma___=       0.032152 meV   omega=     11.5492 meV
+     lambda_tr(   3 )=       0.348487   gamma_tr=       0.034397 meV   omega=     11.5492 meV
+     lambda___( tot )=       0.458876
+     lambda_tr( tot )=       0.441525
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1745 out of     8000
+
+
+     ismear =     1 iq =     136 coord.:   0.18750  0.18750  0.37500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.066513   gamma___=       0.003146 meV   omega=      7.9952 meV
+     lambda_tr(   1 )=       0.055375   gamma_tr=       0.002619 meV   omega=      7.9952 meV
+     lambda___(   2 )=       0.083773   gamma___=       0.004341 meV   omega=      8.3681 meV
+     lambda_tr(   2 )=       0.042924   gamma_tr=       0.002224 meV   omega=      8.3681 meV
+     lambda___(   3 )=       0.139657   gamma___=       0.012902 meV   omega=     11.1734 meV
+     lambda_tr(   3 )=       0.158770   gamma_tr=       0.014668 meV   omega=     11.1734 meV
+     lambda___( tot )=       0.289944
+     lambda_tr( tot )=       0.257069
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1792 out of     8000
+
+
+     ismear =     1 iq =     137 coord.:   0.17500  0.17500  0.35000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.118764   gamma___=       0.005156 meV   omega=      7.6594 meV
+     lambda_tr(   1 )=       0.109316   gamma_tr=       0.004746 meV   omega=      7.6594 meV
+     lambda___(   2 )=       0.105870   gamma___=       0.004986 meV   omega=      7.9779 meV
+     lambda_tr(   2 )=       0.068251   gamma_tr=       0.003214 meV   omega=      7.9779 meV
+     lambda___(   3 )=       0.108068   gamma___=       0.009226 meV   omega=     10.7412 meV
+     lambda_tr(   3 )=       0.139816   gamma_tr=       0.011937 meV   omega=     10.7412 meV
+     lambda___( tot )=       0.332702
+     lambda_tr( tot )=       0.317384
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1821 out of     8000
+
+
+     ismear =     1 iq =     138 coord.:   0.16250  0.16250  0.32500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.092218   gamma___=       0.003628 meV   omega=      7.2911 meV
+     lambda_tr(   1 )=       0.077337   gamma_tr=       0.003042 meV   omega=      7.2911 meV
+     lambda___(   2 )=       0.087243   gamma___=       0.003691 meV   omega=      7.5608 meV
+     lambda_tr(   2 )=       0.049353   gamma_tr=       0.002088 meV   omega=      7.5608 meV
+     lambda___(   3 )=       0.130095   gamma___=       0.010121 meV   omega=     10.2532 meV
+     lambda_tr(   3 )=       0.142473   gamma_tr=       0.011083 meV   omega=     10.2532 meV
+     lambda___( tot )=       0.309555
+     lambda_tr( tot )=       0.269163
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1845 out of     8000
+
+
+     ismear =     1 iq =     139 coord.:   0.15000  0.15000  0.30000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.112875   gamma___=       0.003965 meV   omega=      6.8898 meV
+     lambda_tr(   1 )=       0.090684   gamma_tr=       0.003185 meV   omega=      6.8898 meV
+     lambda___(   2 )=       0.154927   gamma___=       0.005806 meV   omega=      7.1164 meV
+     lambda_tr(   2 )=       0.102315   gamma_tr=       0.003834 meV   omega=      7.1164 meV
+     lambda___(   3 )=       0.109481   gamma___=       0.007639 meV   omega=      9.7103 meV
+     lambda_tr(   3 )=       0.089034   gamma_tr=       0.006212 meV   omega=      9.7103 meV
+     lambda___( tot )=       0.377282
+     lambda_tr( tot )=       0.282034
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1876 out of     8000
+
+
+     ismear =     1 iq =     140 coord.:   0.13750  0.13750  0.27500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.170960   gamma___=       0.005272 meV   omega=      6.4557 meV
+     lambda_tr(   1 )=       0.119653   gamma_tr=       0.003690 meV   omega=      6.4557 meV
+     lambda___(   2 )=       0.182142   gamma___=       0.005950 meV   omega=      6.6444 meV
+     lambda_tr(   2 )=       0.092493   gamma_tr=       0.003022 meV   omega=      6.6444 meV
+     lambda___(   3 )=       0.081627   gamma___=       0.005018 meV   omega=      9.1141 meV
+     lambda_tr(   3 )=       0.039768   gamma_tr=       0.002445 meV   omega=      9.1141 meV
+     lambda___( tot )=       0.434729
+     lambda_tr( tot )=       0.251914
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1953 out of     8000
+
+
+     ismear =     1 iq =     141 coord.:   0.12500  0.12500  0.25000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.149156   gamma___=       0.003959 meV   omega=      5.9894 meV
+     lambda_tr(   1 )=       0.084372   gamma_tr=       0.002240 meV   omega=      5.9894 meV
+     lambda___(   2 )=       0.133819   gamma___=       0.003739 meV   omega=      6.1449 meV
+     lambda_tr(   2 )=       0.046597   gamma_tr=       0.001302 meV   omega=      6.1449 meV
+     lambda___(   3 )=       0.077054   gamma___=       0.004088 meV   omega=      8.4669 meV
+     lambda_tr(   3 )=       0.028611   gamma_tr=       0.001518 meV   omega=      8.4669 meV
+     lambda___( tot )=       0.360030
+     lambda_tr( tot )=       0.159579
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1984 out of     8000
+
+
+     ismear =     1 iq =     142 coord.:   0.11250  0.11250  0.22500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.203417   gamma___=       0.004540 meV   omega=      5.4919 meV
+     lambda_tr(   1 )=       0.049005   gamma_tr=       0.001094 meV   omega=      5.4919 meV
+     lambda___(   2 )=       0.295247   gamma___=       0.006898 meV   omega=      5.6188 meV
+     lambda_tr(   2 )=       0.124588   gamma_tr=       0.002911 meV   omega=      5.6188 meV
+     lambda___(   3 )=       0.103551   gamma___=       0.004628 meV   omega=      7.7711 meV
+     lambda_tr(   3 )=       0.042618   gamma_tr=       0.001905 meV   omega=      7.7711 meV
+     lambda___( tot )=       0.602215
+     lambda_tr( tot )=       0.216211
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2061 out of     8000
+
+
+     ismear =     1 iq =     143 coord.:   0.10000  0.10000  0.20000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.161017   gamma___=       0.002937 meV   omega=      4.9647 meV
+     lambda_tr(   1 )=       0.035280   gamma_tr=       0.000643 meV   omega=      4.9647 meV
+     lambda___(   2 )=       0.215283   gamma___=       0.004090 meV   omega=      5.0672 meV
+     lambda_tr(   2 )=       0.042414   gamma_tr=       0.000806 meV   omega=      5.0672 meV
+     lambda___(   3 )=       0.088247   gamma___=       0.003227 meV   omega=      7.0302 meV
+     lambda_tr(   3 )=       0.017093   gamma_tr=       0.000625 meV   omega=      7.0302 meV
+     lambda___( tot )=       0.464548
+     lambda_tr( tot )=       0.094786
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2090 out of     8000
+
+
+     ismear =     1 iq =     144 coord.:   0.08750  0.08750  0.17500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.118254   gamma___=       0.001702 meV   omega=      4.4099 meV
+     lambda_tr(   1 )=       0.067099   gamma_tr=       0.000966 meV   omega=      4.4099 meV
+     lambda___(   2 )=       0.276946   gamma___=       0.004134 meV   omega=      4.4915 meV
+     lambda_tr(   2 )=       0.105808   gamma_tr=       0.001580 meV   omega=      4.4915 meV
+     lambda___(   3 )=       0.095426   gamma___=       0.002756 meV   omega=      6.2477 meV
+     lambda_tr(   3 )=       0.019501   gamma_tr=       0.000563 meV   omega=      6.2477 meV
+     lambda___( tot )=       0.490626
+     lambda_tr( tot )=       0.192408
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2161 out of     8000
+
+
+     ismear =     1 iq =     145 coord.:   0.07500  0.07500  0.15000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.115529   gamma___=       0.001254 meV   omega=      3.8299 meV
+     lambda_tr(   1 )=       0.053455   gamma_tr=       0.000580 meV   omega=      3.8299 meV
+     lambda___(   2 )=       0.545595   gamma___=       0.006121 meV   omega=      3.8939 meV
+     lambda_tr(   2 )=       0.297656   gamma_tr=       0.003340 meV   omega=      3.8939 meV
+     lambda___(   3 )=       0.109224   gamma___=       0.002381 meV   omega=      5.4278 meV
+     lambda_tr(   3 )=       0.026957   gamma_tr=       0.000588 meV   omega=      5.4278 meV
+     lambda___( tot )=       0.770349
+     lambda_tr( tot )=       0.378067
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2268 out of     8000
+
+
+     ismear =     1 iq =     146 coord.:   0.06250  0.06250  0.12500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.172508   gamma___=       0.001330 meV   omega=      3.2275 meV
+     lambda_tr(   1 )=       0.058438   gamma_tr=       0.000450 meV   omega=      3.2275 meV
+     lambda___(   2 )=       0.314255   gamma___=       0.002497 meV   omega=      3.2766 meV
+     lambda_tr(   2 )=       0.046457   gamma_tr=       0.000369 meV   omega=      3.2766 meV
+     lambda___(   3 )=       0.093789   gamma___=       0.001453 meV   omega=      4.5751 meV
+     lambda_tr(   3 )=       0.008154   gamma_tr=       0.000126 meV   omega=      4.5751 meV
+     lambda___( tot )=       0.580552
+     lambda_tr( tot )=       0.113049
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2347 out of     8000
+
+
+     ismear =     1 iq =     147 coord.:   0.05000  0.05000  0.10000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.197643   gamma___=       0.000993 meV   omega=      2.6059 meV
+     lambda_tr(   1 )=       0.030525   gamma_tr=       0.000153 meV   omega=      2.6059 meV
+     lambda___(   2 )=       0.254665   gamma___=       0.001316 meV   omega=      2.6424 meV
+     lambda_tr(   2 )=       0.010049   gamma_tr=       0.000052 meV   omega=      2.6424 meV
+     lambda___(   3 )=       0.106842   gamma___=       0.001079 meV   omega=      3.6945 meV
+     lambda_tr(   3 )=       0.006287   gamma_tr=       0.000063 meV   omega=      3.6945 meV
+     lambda___( tot )=       0.559150
+     lambda_tr( tot )=       0.046861
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2564 out of     8000
+
+
+     ismear =     1 iq =     148 coord.:   0.03750  0.03750  0.07500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.246936   gamma___=       0.000708 meV   omega=      1.9685 meV
+     lambda_tr(   1 )=       0.015703   gamma_tr=       0.000045 meV   omega=      1.9685 meV
+     lambda___(   2 )=       0.355821   gamma___=       0.001047 meV   omega=      1.9943 meV
+     lambda_tr(   2 )=       0.000878   gamma_tr=       0.000003 meV   omega=      1.9943 meV
+     lambda___(   3 )=       0.127096   gamma___=       0.000733 meV   omega=      2.7911 meV
+     lambda_tr(   3 )=       0.005582   gamma_tr=       0.000032 meV   omega=      2.7911 meV
+     lambda___( tot )=       0.729853
+     lambda_tr( tot )=       0.022163
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2851 out of     8000
+
+
+     ismear =     1 iq =     149 coord.:   0.02500  0.02500  0.05000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.479853   gamma___=       0.000618 meV   omega=      1.3191 meV
+     lambda_tr(   1 )=       0.057755   gamma_tr=       0.000074 meV   omega=      1.3191 meV
+     lambda___(   2 )=       0.480451   gamma___=       0.000634 meV   omega=      1.3355 meV
+     lambda_tr(   2 )=       0.008292   gamma_tr=       0.000011 meV   omega=      1.3355 meV
+     lambda___(   3 )=       0.178472   gamma___=       0.000462 meV   omega=      1.8704 meV
+     lambda_tr(   3 )=       0.006409   gamma_tr=       0.000017 meV   omega=      1.8704 meV
+     lambda___( tot )=       1.138776
+     lambda_tr( tot )=       0.072456
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3193 out of     8000
+
+
+     ismear =     1 iq =     150 coord.:   0.01250  0.01250  0.02500 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.811847   gamma___=       0.000263 meV   omega=      0.6616 meV
+     lambda_tr(   1 )=       0.023348   gamma_tr=       0.000008 meV   omega=      0.6616 meV
+     lambda___(   2 )=       0.792647   gamma___=       0.000263 meV   omega=      0.6696 meV
+     lambda_tr(   2 )=       0.022796   gamma_tr=       0.000008 meV   omega=      0.6696 meV
+     lambda___(   3 )=       0.346039   gamma___=       0.000225 meV   omega=      0.9381 meV
+     lambda_tr(   3 )=       0.006024   gamma_tr=       0.000004 meV   omega=      0.9381 meV
+     lambda___( tot )=       1.950533
+     lambda_tr( tot )=       0.052168
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3523 out of     8000
+
+
+     ismear =     1 iq =     151 coord.:   0.00000  0.00000  0.00000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   1 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___(   2 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   2 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___(   3 )=       0.000000   gamma___=       0.000000 meV   omega=      0.0000 meV
+     lambda_tr(   3 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.0000 meV
+     lambda___( tot )=       0.000000
+     lambda_tr( tot )=       0.000000
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3850 out of     8000
+
+
+     ismear =     1 iq =     152 coord.:   0.01667  0.01667  0.01667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.000000   gamma___=       0.000000 meV   omega=      0.5425 meV
+     lambda_tr(   1 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.5425 meV
+     lambda___(   2 )=       0.000000   gamma___=       0.000000 meV   omega=      0.5425 meV
+     lambda_tr(   2 )=       0.000000   gamma_tr=       0.000000 meV   omega=      0.5425 meV
+     lambda___(   3 )=       0.636207   gamma___=       0.000278 meV   omega=      0.7678 meV
+     lambda_tr(   3 )=       0.008587   gamma_tr=       0.000004 meV   omega=      0.7678 meV
+     lambda___( tot )=       0.636207
+     lambda_tr( tot )=       0.008587
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3605 out of     8000
+
+
+     ismear =     1 iq =     153 coord.:   0.03333  0.03333  0.03333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.243431   gamma___=       0.000211 meV   omega=      1.0826 meV
+     lambda_tr(   1 )=       0.016789   gamma_tr=       0.000015 meV   omega=      1.0826 meV
+     lambda___(   2 )=       0.243431   gamma___=       0.000211 meV   omega=      1.0826 meV
+     lambda_tr(   2 )=       0.016789   gamma_tr=       0.000015 meV   omega=      1.0826 meV
+     lambda___(   3 )=       0.320607   gamma___=       0.000557 meV   omega=      1.5329 meV
+     lambda_tr(   3 )=       0.010459   gamma_tr=       0.000018 meV   omega=      1.5329 meV
+     lambda___( tot )=       0.807469
+     lambda_tr( tot )=       0.044036
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     3242 out of     8000
+
+
+     ismear =     1 iq =     154 coord.:   0.05000  0.05000  0.05000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.149364   gamma___=       0.000289 meV   omega=      1.6179 meV
+     lambda_tr(   1 )=       0.028807   gamma_tr=       0.000056 meV   omega=      1.6179 meV
+     lambda___(   2 )=       0.149364   gamma___=       0.000289 meV   omega=      1.6179 meV
+     lambda_tr(   2 )=       0.028807   gamma_tr=       0.000056 meV   omega=      1.6179 meV
+     lambda___(   3 )=       0.192975   gamma___=       0.000750 meV   omega=      2.2924 meV
+     lambda_tr(   3 )=       0.015402   gamma_tr=       0.000060 meV   omega=      2.2924 meV
+     lambda___( tot )=       0.491704
+     lambda_tr( tot )=       0.073016
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2966 out of     8000
+
+
+     ismear =     1 iq =     155 coord.:   0.06667  0.06667  0.06667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.130278   gamma___=       0.000444 meV   omega=      2.1461 meV
+     lambda_tr(   1 )=       0.048254   gamma_tr=       0.000164 meV   omega=      2.1461 meV
+     lambda___(   2 )=       0.130278   gamma___=       0.000444 meV   omega=      2.1461 meV
+     lambda_tr(   2 )=       0.048254   gamma_tr=       0.000164 meV   omega=      2.1461 meV
+     lambda___(   3 )=       0.152933   gamma___=       0.001048 meV   omega=      3.0437 meV
+     lambda_tr(   3 )=       0.025186   gamma_tr=       0.000173 meV   omega=      3.0437 meV
+     lambda___( tot )=       0.413489
+     lambda_tr( tot )=       0.121694
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2748 out of     8000
+
+
+     ismear =     1 iq =     156 coord.:   0.08333  0.08333  0.08333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.121368   gamma___=       0.000638 meV   omega=      2.6649 meV
+     lambda_tr(   1 )=       0.066084   gamma_tr=       0.000347 meV   omega=      2.6649 meV
+     lambda___(   2 )=       0.121368   gamma___=       0.000638 meV   omega=      2.6649 meV
+     lambda_tr(   2 )=       0.066084   gamma_tr=       0.000347 meV   omega=      2.6649 meV
+     lambda___(   3 )=       0.124296   gamma___=       0.001317 meV   omega=      3.7841 meV
+     lambda_tr(   3 )=       0.032860   gamma_tr=       0.000348 meV   omega=      3.7841 meV
+     lambda___( tot )=       0.367032
+     lambda_tr( tot )=       0.165028
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2481 out of     8000
+
+
+     ismear =     1 iq =     157 coord.:   0.10000  0.10000  0.10000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.116854   gamma___=       0.000870 meV   omega=      3.1722 meV
+     lambda_tr(   1 )=       0.076003   gamma_tr=       0.000566 meV   omega=      3.1722 meV
+     lambda___(   2 )=       0.116854   gamma___=       0.000870 meV   omega=      3.1722 meV
+     lambda_tr(   2 )=       0.076003   gamma_tr=       0.000566 meV   omega=      3.1722 meV
+     lambda___(   3 )=       0.124383   gamma___=       0.001873 meV   omega=      4.5111 meV
+     lambda_tr(   3 )=       0.045593   gamma_tr=       0.000687 meV   omega=      4.5111 meV
+     lambda___( tot )=       0.358090
+     lambda_tr( tot )=       0.197599
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2340 out of     8000
+
+
+     ismear =     1 iq =     158 coord.:   0.11667  0.11667  0.11667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.079701   gamma___=       0.000793 meV   omega=      3.6659 meV
+     lambda_tr(   1 )=       0.049278   gamma_tr=       0.000490 meV   omega=      3.6659 meV
+     lambda___(   2 )=       0.079701   gamma___=       0.000793 meV   omega=      3.6659 meV
+     lambda_tr(   2 )=       0.049278   gamma_tr=       0.000490 meV   omega=      3.6659 meV
+     lambda___(   3 )=       0.113016   gamma___=       0.002281 meV   omega=      5.2223 meV
+     lambda_tr(   3 )=       0.050209   gamma_tr=       0.001013 meV   omega=      5.2223 meV
+     lambda___( tot )=       0.272419
+     lambda_tr( tot )=       0.148765
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2253 out of     8000
+
+
+     ismear =     1 iq =     159 coord.:   0.13333  0.13333  0.13333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.067230   gamma___=       0.000854 meV   omega=      4.1441 meV
+     lambda_tr(   1 )=       0.032795   gamma_tr=       0.000417 meV   omega=      4.1441 meV
+     lambda___(   2 )=       0.067230   gamma___=       0.000854 meV   omega=      4.1441 meV
+     lambda_tr(   2 )=       0.032795   gamma_tr=       0.000417 meV   omega=      4.1441 meV
+     lambda___(   3 )=       0.082162   gamma___=       0.002127 meV   omega=      5.9152 meV
+     lambda_tr(   3 )=       0.039354   gamma_tr=       0.001019 meV   omega=      5.9152 meV
+     lambda___( tot )=       0.216622
+     lambda_tr( tot )=       0.104944
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2196 out of     8000
+
+
+     ismear =     1 iq =     160 coord.:   0.15000  0.15000  0.15000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.084636   gamma___=       0.001328 meV   omega=      4.6052 meV
+     lambda_tr(   1 )=       0.027437   gamma_tr=       0.000431 meV   omega=      4.6052 meV
+     lambda___(   2 )=       0.084636   gamma___=       0.001328 meV   omega=      4.6052 meV
+     lambda_tr(   2 )=       0.027437   gamma_tr=       0.000431 meV   omega=      4.6052 meV
+     lambda___(   3 )=       0.082676   gamma___=       0.002655 meV   omega=      6.5878 meV
+     lambda_tr(   3 )=       0.030810   gamma_tr=       0.000989 meV   omega=      6.5878 meV
+     lambda___( tot )=       0.251948
+     lambda_tr( tot )=       0.085684
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2148 out of     8000
+
+
+     ismear =     1 iq =     161 coord.:   0.16667  0.16667  0.16667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.153331   gamma___=       0.002891 meV   omega=      5.0476 meV
+     lambda_tr(   1 )=       0.055737   gamma_tr=       0.001051 meV   omega=      5.0476 meV
+     lambda___(   2 )=       0.153331   gamma___=       0.002891 meV   omega=      5.0476 meV
+     lambda_tr(   2 )=       0.055737   gamma_tr=       0.001051 meV   omega=      5.0476 meV
+     lambda___(   3 )=       0.119420   gamma___=       0.004630 meV   omega=      7.2380 meV
+     lambda_tr(   3 )=       0.048353   gamma_tr=       0.001875 meV   omega=      7.2380 meV
+     lambda___( tot )=       0.426081
+     lambda_tr( tot )=       0.159826
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2142 out of     8000
+
+
+     ismear =     1 iq =     162 coord.:   0.18333  0.18333  0.18333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.239430   gamma___=       0.005301 meV   omega=      5.4700 meV
+     lambda_tr(   1 )=       0.075621   gamma_tr=       0.001674 meV   omega=      5.4700 meV
+     lambda___(   2 )=       0.239430   gamma___=       0.005301 meV   omega=      5.4700 meV
+     lambda_tr(   2 )=       0.075621   gamma_tr=       0.001674 meV   omega=      5.4700 meV
+     lambda___(   3 )=       0.173777   gamma___=       0.007952 meV   omega=      7.8640 meV
+     lambda_tr(   3 )=       0.041951   gamma_tr=       0.001920 meV   omega=      7.8640 meV
+     lambda___( tot )=       0.652637
+     lambda_tr( tot )=       0.193193
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2154 out of     8000
+
+
+     ismear =     1 iq =     163 coord.:   0.20000  0.20000  0.20000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.236202   gamma___=       0.006025 meV   omega=      5.8712 meV
+     lambda_tr(   1 )=       0.090938   gamma_tr=       0.002320 meV   omega=      5.8712 meV
+     lambda___(   2 )=       0.236202   gamma___=       0.006025 meV   omega=      5.8712 meV
+     lambda_tr(   2 )=       0.090938   gamma_tr=       0.002320 meV   omega=      5.8712 meV
+     lambda___(   3 )=       0.245962   gamma___=       0.013039 meV   omega=      8.4641 meV
+     lambda_tr(   3 )=       0.042485   gamma_tr=       0.002252 meV   omega=      8.4641 meV
+     lambda___( tot )=       0.718366
+     lambda_tr( tot )=       0.224360
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2118 out of     8000
+
+
+     ismear =     1 iq =     164 coord.:   0.21667  0.21667  0.21667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.132753   gamma___=       0.003838 meV   omega=      6.2502 meV
+     lambda_tr(   1 )=       0.056845   gamma_tr=       0.001643 meV   omega=      6.2502 meV
+     lambda___(   2 )=       0.132753   gamma___=       0.003838 meV   omega=      6.2502 meV
+     lambda_tr(   2 )=       0.056845   gamma_tr=       0.001643 meV   omega=      6.2502 meV
+     lambda___(   3 )=       0.267560   gamma___=       0.016168 meV   omega=      9.0367 meV
+     lambda_tr(   3 )=       0.045858   gamma_tr=       0.002771 meV   omega=      9.0367 meV
+     lambda___( tot )=       0.533066
+     lambda_tr( tot )=       0.159548
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2133 out of     8000
+
+
+     ismear =     1 iq =     165 coord.:   0.23333  0.23333  0.23333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.117306   gamma___=       0.003789 meV   omega=      6.6065 meV
+     lambda_tr(   1 )=       0.044511   gamma_tr=       0.001438 meV   omega=      6.6065 meV
+     lambda___(   2 )=       0.117306   gamma___=       0.003789 meV   omega=      6.6065 meV
+     lambda_tr(   2 )=       0.044511   gamma_tr=       0.001438 meV   omega=      6.6065 meV
+     lambda___(   3 )=       0.272868   gamma___=       0.018534 meV   omega=      9.5806 meV
+     lambda_tr(   3 )=       0.043022   gamma_tr=       0.002922 meV   omega=      9.5806 meV
+     lambda___( tot )=       0.507479
+     lambda_tr( tot )=       0.132044
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2097 out of     8000
+
+
+     ismear =     1 iq =     166 coord.:   0.25000  0.25000  0.25000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.102525   gamma___=       0.003653 meV   omega=      6.9393 meV
+     lambda_tr(   1 )=       0.029009   gamma_tr=       0.001034 meV   omega=      6.9393 meV
+     lambda___(   2 )=       0.102525   gamma___=       0.003653 meV   omega=      6.9393 meV
+     lambda_tr(   2 )=       0.029009   gamma_tr=       0.001034 meV   omega=      6.9393 meV
+     lambda___(   3 )=       0.343426   gamma___=       0.025896 meV   omega=     10.0946 meV
+     lambda_tr(   3 )=       0.120049   gamma_tr=       0.009052 meV   omega=     10.0946 meV
+     lambda___( tot )=       0.548477
+     lambda_tr( tot )=       0.178066
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2046 out of     8000
+
+
+     ismear =     1 iq =     167 coord.:   0.26667  0.26667  0.26667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.092472   gamma___=       0.003595 meV   omega=      7.2485 meV
+     lambda_tr(   1 )=       0.033016   gamma_tr=       0.001284 meV   omega=      7.2485 meV
+     lambda___(   2 )=       0.092472   gamma___=       0.003595 meV   omega=      7.2485 meV
+     lambda_tr(   2 )=       0.033016   gamma_tr=       0.001284 meV   omega=      7.2485 meV
+     lambda___(   3 )=       0.315642   gamma___=       0.026134 meV   omega=     10.5778 meV
+     lambda_tr(   3 )=       0.122114   gamma_tr=       0.010111 meV   omega=     10.5778 meV
+     lambda___( tot )=       0.500586
+     lambda_tr( tot )=       0.188146
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2037 out of     8000
+
+
+     ismear =     1 iq =     168 coord.:   0.28333  0.28333  0.28333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.111831   gamma___=       0.004697 meV   omega=      7.5338 meV
+     lambda_tr(   1 )=       0.060819   gamma_tr=       0.002554 meV   omega=      7.5338 meV
+     lambda___(   2 )=       0.111831   gamma___=       0.004697 meV   omega=      7.5338 meV
+     lambda_tr(   2 )=       0.060819   gamma_tr=       0.002554 meV   omega=      7.5338 meV
+     lambda___(   3 )=       0.271993   gamma___=       0.024483 meV   omega=     11.0292 meV
+     lambda_tr(   3 )=       0.116851   gamma_tr=       0.010518 meV   omega=     11.0292 meV
+     lambda___( tot )=       0.495654
+     lambda_tr( tot )=       0.238489
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1992 out of     8000
+
+
+     ismear =     1 iq =     169 coord.:   0.30000  0.30000  0.30000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.107014   gamma___=       0.004812 meV   omega=      7.7954 meV
+     lambda_tr(   1 )=       0.067481   gamma_tr=       0.003034 meV   omega=      7.7954 meV
+     lambda___(   2 )=       0.107014   gamma___=       0.004812 meV   omega=      7.7954 meV
+     lambda_tr(   2 )=       0.067481   gamma_tr=       0.003034 meV   omega=      7.7954 meV
+     lambda___(   3 )=       0.184564   gamma___=       0.017900 meV   omega=     11.4483 meV
+     lambda_tr(   3 )=       0.079053   gamma_tr=       0.007667 meV   omega=     11.4483 meV
+     lambda___( tot )=       0.398592
+     lambda_tr( tot )=       0.214016
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1995 out of     8000
+
+
+     ismear =     1 iq =     170 coord.:   0.31667  0.31667  0.31667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.106225   gamma___=       0.005073 meV   omega=      8.0333 meV
+     lambda_tr(   1 )=       0.070618   gamma_tr=       0.003372 meV   omega=      8.0333 meV
+     lambda___(   2 )=       0.106225   gamma___=       0.005073 meV   omega=      8.0333 meV
+     lambda_tr(   2 )=       0.070618   gamma_tr=       0.003372 meV   omega=      8.0333 meV
+     lambda___(   3 )=       0.164069   gamma___=       0.017004 meV   omega=     11.8346 meV
+     lambda_tr(   3 )=       0.089709   gamma_tr=       0.009298 meV   omega=     11.8346 meV
+     lambda___( tot )=       0.376519
+     lambda_tr( tot )=       0.230946
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1989 out of     8000
+
+
+     ismear =     1 iq =     171 coord.:   0.33333  0.33333  0.33333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.085952   gamma___=       0.004327 meV   omega=      8.2479 meV
+     lambda_tr(   1 )=       0.063647   gamma_tr=       0.003204 meV   omega=      8.2479 meV
+     lambda___(   2 )=       0.085952   gamma___=       0.004327 meV   omega=      8.2479 meV
+     lambda_tr(   2 )=       0.063647   gamma_tr=       0.003204 meV   omega=      8.2479 meV
+     lambda___(   3 )=       0.152595   gamma___=       0.016773 meV   omega=     12.1876 meV
+     lambda_tr(   3 )=       0.110121   gamma_tr=       0.012104 meV   omega=     12.1876 meV
+     lambda___( tot )=       0.324500
+     lambda_tr( tot )=       0.237414
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1905 out of     8000
+
+
+     ismear =     1 iq =     172 coord.:   0.35000  0.35000  0.35000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.043943   gamma___=       0.002316 meV   omega=      8.4397 meV
+     lambda_tr(   1 )=       0.034293   gamma_tr=       0.001807 meV   omega=      8.4397 meV
+     lambda___(   2 )=       0.043943   gamma___=       0.002316 meV   omega=      8.4397 meV
+     lambda_tr(   2 )=       0.034293   gamma_tr=       0.001807 meV   omega=      8.4397 meV
+     lambda___(   3 )=       0.066135   gamma___=       0.007655 meV   omega=     12.5072 meV
+     lambda_tr(   3 )=       0.047203   gamma_tr=       0.005464 meV   omega=     12.5072 meV
+     lambda___( tot )=       0.154021
+     lambda_tr( tot )=       0.115789
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1908 out of     8000
+
+
+     ismear =     1 iq =     173 coord.:   0.36667  0.36667  0.36667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.050819   gamma___=       0.002787 meV   omega=      8.6091 meV
+     lambda_tr(   1 )=       0.045409   gamma_tr=       0.002490 meV   omega=      8.6091 meV
+     lambda___(   2 )=       0.050819   gamma___=       0.002787 meV   omega=      8.6091 meV
+     lambda_tr(   2 )=       0.045409   gamma_tr=       0.002490 meV   omega=      8.6091 meV
+     lambda___(   3 )=       0.064547   gamma___=       0.007817 meV   omega=     12.7930 meV
+     lambda_tr(   3 )=       0.064592   gamma_tr=       0.007823 meV   omega=     12.7930 meV
+     lambda___( tot )=       0.166184
+     lambda_tr( tot )=       0.155410
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1968 out of     8000
+
+
+     ismear =     1 iq =     174 coord.:   0.38333  0.38333  0.38333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.081306   gamma___=       0.004613 meV   omega=      8.7567 meV
+     lambda_tr(   1 )=       0.070556   gamma_tr=       0.004003 meV   omega=      8.7567 meV
+     lambda___(   2 )=       0.081306   gamma___=       0.004613 meV   omega=      8.7567 meV
+     lambda_tr(   2 )=       0.070556   gamma_tr=       0.004003 meV   omega=      8.7567 meV
+     lambda___(   3 )=       0.132663   gamma___=       0.016706 meV   omega=     13.0452 meV
+     lambda_tr(   3 )=       0.125072   gamma_tr=       0.015750 meV   omega=     13.0452 meV
+     lambda___( tot )=       0.295276
+     lambda_tr( tot )=       0.266185
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     1983 out of     8000
+
+
+     ismear =     1 iq =     175 coord.:   0.40000  0.40000  0.40000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.050190   gamma___=       0.002931 meV   omega=      8.8831 meV
+     lambda_tr(   1 )=       0.043552   gamma_tr=       0.002543 meV   omega=      8.8831 meV
+     lambda___(   2 )=       0.050190   gamma___=       0.002931 meV   omega=      8.8831 meV
+     lambda_tr(   2 )=       0.043552   gamma_tr=       0.002543 meV   omega=      8.8831 meV
+     lambda___(   3 )=       0.201410   gamma___=       0.026220 meV   omega=     13.2636 meV
+     lambda_tr(   3 )=       0.203039   gamma_tr=       0.026432 meV   omega=     13.2636 meV
+     lambda___( tot )=       0.301790
+     lambda_tr( tot )=       0.290143
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2038 out of     8000
+
+
+     ismear =     1 iq =     176 coord.:   0.41667  0.41667  0.41667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.061100   gamma___=       0.003653 meV   omega=      8.9888 meV
+     lambda_tr(   1 )=       0.061112   gamma_tr=       0.003654 meV   omega=      8.9888 meV
+     lambda___(   2 )=       0.061100   gamma___=       0.003653 meV   omega=      8.9888 meV
+     lambda_tr(   2 )=       0.061112   gamma_tr=       0.003654 meV   omega=      8.9888 meV
+     lambda___(   3 )=       0.156493   gamma___=       0.020943 meV   omega=     13.4482 meV
+     lambda_tr(   3 )=       0.130383   gamma_tr=       0.017449 meV   omega=     13.4482 meV
+     lambda___( tot )=       0.278693
+     lambda_tr( tot )=       0.252606
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2056 out of     8000
+
+
+     ismear =     1 iq =     177 coord.:   0.43333  0.43333  0.43333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.088744   gamma___=       0.005408 meV   omega=      9.0745 meV
+     lambda_tr(   1 )=       0.094135   gamma_tr=       0.005736 meV   omega=      9.0745 meV
+     lambda___(   2 )=       0.088744   gamma___=       0.005408 meV   omega=      9.0745 meV
+     lambda_tr(   2 )=       0.094135   gamma_tr=       0.005736 meV   omega=      9.0745 meV
+     lambda___(   3 )=       0.198041   gamma___=       0.027102 meV   omega=     13.5991 meV
+     lambda_tr(   3 )=       0.200976   gamma_tr=       0.027504 meV   omega=     13.5991 meV
+     lambda___( tot )=       0.375529
+     lambda_tr( tot )=       0.389246
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2083 out of     8000
+
+
+     ismear =     1 iq =     178 coord.:   0.45000  0.45000  0.45000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.118017   gamma___=       0.007297 meV   omega=      9.1406 meV
+     lambda_tr(   1 )=       0.108668   gamma_tr=       0.006719 meV   omega=      9.1406 meV
+     lambda___(   2 )=       0.118017   gamma___=       0.007297 meV   omega=      9.1406 meV
+     lambda_tr(   2 )=       0.108668   gamma_tr=       0.006719 meV   omega=      9.1406 meV
+     lambda___(   3 )=       0.177800   gamma___=       0.024754 meV   omega=     13.7165 meV
+     lambda_tr(   3 )=       0.125769   gamma_tr=       0.017510 meV   omega=     13.7165 meV
+     lambda___( tot )=       0.413833
+     lambda_tr( tot )=       0.343105
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2048 out of     8000
+
+
+     ismear =     1 iq =     179 coord.:   0.46667  0.46667  0.46667 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.084917   gamma___=       0.005304 meV   omega=      9.1876 meV
+     lambda_tr(   1 )=       0.065964   gamma_tr=       0.004120 meV   omega=      9.1876 meV
+     lambda___(   2 )=       0.084917   gamma___=       0.005304 meV   omega=      9.1876 meV
+     lambda_tr(   2 )=       0.065964   gamma_tr=       0.004120 meV   omega=      9.1876 meV
+     lambda___(   3 )=       0.169816   gamma___=       0.023932 meV   omega=     13.8002 meV
+     lambda_tr(   3 )=       0.122663   gamma_tr=       0.017287 meV   omega=     13.8002 meV
+     lambda___( tot )=       0.339649
+     lambda_tr( tot )=       0.254590
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2044 out of     8000
+
+
+     ismear =     1 iq =     180 coord.:   0.48333  0.48333  0.48333 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.050524   gamma___=       0.003175 meV   omega=      9.2156 meV
+     lambda_tr(   1 )=       0.048521   gamma_tr=       0.003049 meV   omega=      9.2156 meV
+     lambda___(   2 )=       0.050524   gamma___=       0.003175 meV   omega=      9.2156 meV
+     lambda_tr(   2 )=       0.048521   gamma_tr=       0.003049 meV   omega=      9.2156 meV
+     lambda___(   3 )=       0.103311   gamma___=       0.014666 meV   omega=     13.8504 meV
+     lambda_tr(   3 )=       0.082504   gamma_tr=       0.011712 meV   omega=     13.8504 meV
+     lambda___( tot )=       0.204359
+     lambda_tr( tot )=       0.179547
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2044 out of     8000
+
+
+     ismear =     1 iq =     181 coord.:   0.50000  0.50000  0.50000 wt:   1.00000 Temp:    0.075K
+     -------------------------------------------------------------------
+     lambda___(   1 )=       0.043191   gamma___=       0.002720 meV   omega=      9.2249 meV
+     lambda_tr(   1 )=       0.044787   gamma_tr=       0.002820 meV   omega=      9.2249 meV
+     lambda___(   2 )=       0.043191   gamma___=       0.002720 meV   omega=      9.2249 meV
+     lambda_tr(   2 )=       0.044787   gamma_tr=       0.002820 meV   omega=      9.2249 meV
+     lambda___(   3 )=       0.074068   gamma___=       0.010540 meV   omega=     13.8671 meV
+     lambda_tr(   3 )=       0.068781   gamma_tr=       0.009787 meV   omega=     13.8671 meV
+     lambda___( tot )=       0.160450
+     lambda_tr( tot )=       0.158356
+     -------------------------------------------------------------------
+
+
+     Number of (k,k+q) pairs on the Fermi surface:     2036 out of     8000
+
+System file does not exist
+     ===================================================================
+     Memory usage:  VmHWM =         0Mb
+                   VmPeak =         0Mb
+     ===================================================================
+
+
+     Unfolding on the coarse grid
+     elphon_wrap  :      0.00s CPU      0.01s WALL (       1 calls)
+
+     INITIALIZATION: 
+
+
+
+
+     Electron-Phonon interpolation
+     ephwann      :     36.30s CPU     38.04s WALL (       1 calls)
+     ep-interp    :     36.03s CPU     37.69s WALL (     181 calls)
+     PH SELF-ENER :      0.18s CPU      0.19s WALL (     181 calls)
+
+     DynW2B       :      0.00s CPU      0.00s WALL (     181 calls)
+     HamW2B       :      6.92s CPU      7.27s WALL (  730642 calls)
+     ephW2Bp      :      0.09s CPU      0.16s WALL (     181 calls)
+     ephW2B       :      0.98s CPU      1.02s WALL (   83412 calls)
+     vmewan2bloch :     21.88s CPU     22.64s WALL (  724000 calls)
+     vmewan2bloch :     21.88s CPU     22.64s WALL (  724000 calls)
+
+
+     Total program execution
+     EPW          :     36.30s CPU     38.05s WALL
+
+     ===============================================================================
+     The functionality-dependent EPW.bib file was created with suggested citations. 
+     Please consider citing the papers listed in EPW.bib.                           
+     ===============================================================================
+                                                                                    

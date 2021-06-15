@@ -1,0 +1,32 @@
+--
+&inputepw
+  prefix      = 'pb',
+  amass(1)    = 207.2
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  elph        = .true.
+  epwwrite    = .true.
+  epwread     = .false.
+
+  wannierize  = .true.
+  nbndsub     =  4
+  bands_skipped = 'exclude_bands = 1-5'
+  num_iter    = 300
+  dis_win_max = 21
+  dis_froz_max= 13.5
+  proj(1)     = 'Pb:sp3'
+  wannier_plot= .true.
+
+  band_plot   = .true.
+
+  filkf       = 'path2.dat'
+  filqf       = 'path2.dat'
+
+  nk1         = 6
+  nk2         = 6
+  nk3         = 6
+  nq1         = 3
+  nq2         = 3
+  nq3         = 3
+ /

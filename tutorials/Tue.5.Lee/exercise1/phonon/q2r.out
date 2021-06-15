@@ -1,0 +1,67 @@
+
+     Program Q2R v.6.7MaX starts on 15Jun2021 at 19:31: 9 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       1 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+
+     reading grid info from file pb.dyn0    
+  reading force constants from file pb.dyn1
+  Dielectric Tensor not found
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file pb.dyn2
+  nqs=            8
+ q=  -0.33333333  0.33333333 -0.33333333
+ q=   0.33333333  0.33333333 -0.33333333
+ q=   0.33333333  0.33333333  0.33333333
+ q=  -0.33333333  0.33333333  0.33333333
+ q=   0.33333333 -0.33333333  0.33333333
+ q=  -0.33333333 -0.33333333 -0.33333333
+ q=   0.33333333 -0.33333333 -0.33333333
+ q=  -0.33333333 -0.33333333  0.33333333
+  reading force constants from file pb.dyn3
+  nqs=            6
+ q=   0.00000000  0.66666667  0.00000000
+ q=  -0.66666667  0.00000000  0.00000000
+ q=   0.00000000 -0.66666667  0.00000000
+ q=   0.00000000  0.00000000  0.66666667
+ q=   0.00000000  0.00000000 -0.66666667
+ q=   0.66666667  0.00000000  0.00000000
+  reading force constants from file pb.dyn4
+  nqs=           12
+ q=   0.66666667  0.00000000  0.66666667
+ q=   0.66666667  0.00000000 -0.66666667
+ q=  -0.66666667  0.00000000 -0.66666667
+ q=  -0.66666667  0.00000000  0.66666667
+ q=   0.00000000 -0.66666667  0.66666667
+ q=  -0.66666667  0.66666667  0.00000000
+ q=  -0.66666667 -0.66666667  0.00000000
+ q=   0.66666667  0.66666667  0.00000000
+ q=   0.66666667 -0.66666667  0.00000000
+ q=   0.00000000  0.66666667  0.66666667
+ q=   0.00000000  0.66666667 -0.66666667
+ q=   0.00000000 -0.66666667 -0.66666667
+
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+
+     Q2R          :      0.00s CPU      0.01s WALL
+
+
+   This run was terminated on:  19:31: 9  15Jun2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

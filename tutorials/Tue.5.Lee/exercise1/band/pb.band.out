@@ -1,0 +1,160 @@
+
+     Program PWSCF v.6.7MaX starts on 15Jun2021 at 20: 0:59 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       4 processor cores
+     Number of MPI processes:                 4
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     K-points division:     npool     =       4
+     Reading input from pb.band.in
+     Message from routine read_cards :
+     DEPRECATED: no units specified in ATOMIC_POSITIONS card
+     Message from routine read_cards :
+     ATOMIC_POSITIONS: units set to alat
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     Atomic positions and unit cell read from directory:
+     ./pb.save/
+
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         349     349    121                 4285     4285     821
+
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       9.2226  a.u.
+     unit-cell volume          =     196.1075 (a.u.)^3
+     number of atoms/cell      =            1
+     number of atomic types    =            1
+     number of electrons       =        14.00
+     number of Kohn-Sham states=           10
+     kinetic-energy cutoff     =      30.0000  Ry
+     charge density cutoff     =     120.0000  Ry
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+
+     celldm(1)=   9.222558  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.500000   0.000000   0.500000 )  
+               a(2) = (   0.000000   0.500000   0.500000 )  
+               a(3) = (  -0.500000   0.500000   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.000000 -1.000000  1.000000 )  
+               b(2) = (  1.000000  1.000000  1.000000 )  
+               b(3) = ( -1.000000  1.000000 -1.000000 )  
+
+
+     PseudoPot. # 1 for Pb read from file:
+     ../pb_s.UPF
+     MD5 check sum: 7774f596943a2055f0d8d19eea6f2ae8
+     Pseudo is Norm-conserving, Zval = 14.0
+     Generated using "atomic" code by A. Dal Corso  (Quantum ESPRESSO distribution)
+     Using radial grid of 1281 points,  2 beta functions with: 
+                l(1) =   2
+                l(2) =   1
+
+     atomic species   valence    mass     pseudopotential
+        Pb            14.00   207.20000     Pb( 1.00)
+
+     48 Sym. Ops., with inversion, found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Pb  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+
+     number of k points=   181  Marzari-Vanderbilt smearing, width (Ry)=  0.0500
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:     4285 G-vectors     FFT dimensions: (  24,  24,  24)
+
+     Estimated max dynamical RAM per process >       2.14 MB
+
+     Estimated total dynamical RAM >       8.56 MB
+
+     The potential is recalculated from file :
+     ./pb.save/charge-density
+
+     Starting wfcs are    9 randomized atomic wfcs +    1 random wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  7.14E-13,  avg # of iterations = 28.7
+
+     total cpu time spent up to now is        2.4 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     Writing output data file ./pb.save/
+
+     init_run     :      0.04s CPU      0.05s WALL (       1 calls)
+     electrons    :      1.84s CPU      1.88s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     hinit0       :      0.04s CPU      0.04s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :      1.84s CPU      1.88s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.00s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.00s CPU      0.00s WALL (      46 calls)
+     cegterg      :      1.57s CPU      1.60s WALL (      92 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.14s CPU      0.15s WALL (    1290 calls)
+     h_psi        :      1.29s CPU      1.32s WALL (    1382 calls)
+     g_psi        :      0.01s CPU      0.01s WALL (    1244 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.02s CPU      0.02s WALL (    1382 calls)
+     vloc_psi     :      1.24s CPU      1.26s WALL (    1382 calls)
+     add_vuspsi   :      0.02s CPU      0.02s WALL (    1382 calls)
+
+     General routines
+     calbec       :      0.02s CPU      0.02s WALL (    1382 calls)
+     fft          :      0.01s CPU      0.01s WALL (       3 calls)
+     fftw         :      1.12s CPU      1.14s WALL (   14812 calls)
+     davcio       :      0.00s CPU      0.00s WALL (      92 calls)
+
+     Parallel routines
+
+     PWSCF        :      2.40s CPU      2.51s WALL
+
+
+   This run was terminated on:  20: 1: 2  15Jun2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
